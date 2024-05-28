@@ -1,0 +1,108 @@
+.container {
+    position: absolute;
+    bottom: 10vh;
+    left: 15vw;
+    counter-reset: counter;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.container p{
+    color: white;
+    max-width: 300px;
+}
+.container-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 25px;
+    margin-bottom: 20px;
+}
+.container-logo-img {
+    width: 50px;
+}
+.container-title {
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+}
+.container-list {
+    position: absolute;
+    bottom: -10vh;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 50vw;
+    list-style: none;
+}
+.container-list li{
+    margin: 0 0 2vh 0;
+    height: 20%;
+    line-height: normal;
+}
+.container-sub {
+    color: white;
+    font-size: 150px;
+    font-family: 'Noto Serif', sans-serif;
+    text-decoration: none;
+}
+.container-sub::before {
+    counter-increment: counter;
+    content: "0" counter(counter);
+    font-size: 1rem;
+    letter-spacing: -.1em;
+    margin-right: .5rem;
+}
+.container-social {
+    position: absolute;
+    bottom: 13vh;
+    right: 75vh;
+    color: white;
+    font-size: 50px;
+}
+.container-social-gh {
+    position: absolute;
+    bottom: 13vh;
+    right: 50vh;
+    color: white;
+    font-size: 50px;
+}
+.container-social a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: white;
+    text-decoration: none;
+}
+.container-social-gh a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: white;
+    text-decoration: none;
+}
+.container-social-img {
+    width: 50px;
+}
+div.underline {
+    height: 3px;
+    background-color: white;
+    width: 0;
+    transition: all 0.5s ease-in-out;
+}
+.container-list li:hover > div.underline  {
+    width: 80%;
+    transition: all 0.5s ease-in-out;
+}
+.container-social:hover > div.underline {
+    width: 100%;
+    transition: all 0.5s;
+}
+.container-social-gh:hover > div.underline {
+    width: 100%;
+    transition: all 0.5s;
+}

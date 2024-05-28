@@ -1,0 +1,125 @@
+.separate {
+    width: 50%;
+    margin: 0 auto;
+    border-bottom: solid #3e8453 3px;
+}
+.anchor {
+    text-align: center;
+    height: 20px;
+    width: 100%;
+    visibility: hidden;
+}
+.fadeOut {
+    opacity: 0.2;
+    transition: all 0.5s ease;
+}
+.fadeInUp {
+    opacity: 1;
+    transition: all 0.5s ease;
+}
+
+/* Présentation */
+.home-create-title,
+.home-presentation-title,
+.home-projets-title,
+.home-contact-title {
+    margin-top: 50px;
+}
+
+/* Compétences */
+.home-skills-flex {
+    width: 80%;
+    display: flex;
+    margin: 50px auto;
+    justify-content: center;
+    gap: 25px;
+}
+.home-skills-grid {
+    width: 50%;
+    padding: 25px;
+    gap: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    border-radius: 25px;
+    background-image: url('../../assets/banniere/fond-2.jpg');
+    background-size: cover;
+    background-position: left;
+}
+.home-skills-second {
+    width: 24%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    gap: 25px;
+    padding: 25px;
+    border-radius: 25px;
+    background-image: url('../../assets/banniere/fond-2.jpg');
+    background-size: cover;
+}
+
+/* Responsive */
+@media screen and (max-width: 1500px){
+    .home-skills-flex {
+        width: 80vw;
+    }
+}@media screen and (max-width: 1200px){
+    .home-skills-flex {
+        width: 100vw;
+    }    
+    .home-skills-grid {
+        width: 55%;
+    }
+    .home-skills-second {
+        width: 25%;
+    }
+}
+@media screen and (max-width: 1000px){
+    .home-skills-flex {
+        width: 80vw;
+    } 
+    .home-skills-grid {
+        width: 60%;
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+    }
+    .home-skills-second {
+        width: 20%;
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+}
+@media screen and (max-width: 800px){
+    .home-skills-flex {
+        width: 90%;
+        flex-direction: column;
+    }
+    .home-skills-grid {
+        width: 90%;
+        grid-template-columns: 1fr 1fr;
+        margin: auto;
+        padding: 15px;
+    }
+    .home-skills-second {
+        width: 90%;
+        grid-template-columns: 1fr 1fr;
+        margin: auto;
+        padding: 15px;
+    }
+}
+@media screen and (max-width: 500px){
+    .home-skills-flex {
+        width: 80%;
+        gap: 15px;
+    }
+    .home-skills-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+    .home-skills-second {
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+}

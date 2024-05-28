@@ -1,0 +1,39 @@
+.navbar-ctn {
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vh;
+    transform-origin: left;
+    transform: rotate(270deg);
+}
+.navbar-separate {
+    height: 20px;
+    width: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar-separate span{
+    background-color: white;
+    height: 2px;
+    width: 100%;
+}
+.navbar-left {
+    padding-left: 50px;
+}
+.navbar-right {
+    display: flex;
+    padding-right: 50px;
+    gap: 10px;
+}
+.navbar-right a{
+    color: white;    
+    text-decoration: none;
+}
+.navbar-right a:hover{
+    text-decoration: line-through;
+}

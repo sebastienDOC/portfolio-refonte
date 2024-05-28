@@ -1,0 +1,64 @@
+.contact-ctn {
+    position: absolute;
+    top: -100vh;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+}
+.contact-ctn h1.contact-title{
+    color: white;
+    font-size: 230px;
+    font-family: 'Noto Serif', sans-serif;
+    font-weight: 400;
+    width: 50vw;
+    position: relative;
+    top: 25vh;
+    left: 7.5vw;
+}
+.contact-ctn h2.contact-sub {
+    color: white;
+    font-family: 'Noto Serif', sans-serif;
+}
+.contact-ctn h3,
+.contact-ctn h4 {
+    color: white;
+    font-family: 'Noto Serif', sans-serif;
+}
+.about-title-ctn {
+    color: white;
+    width: 50vw;
+    position: relative;
+    top: 5vh;
+    left: 7.5vw;
+}
+.contact-txt {
+    color: white;
+    width: 30vw;
+    position: relative;
+    top: 30vh;
+    left: 7.5vw;
+}
+i {
+    margin-right: 0.5vw;
+    width: 16px;
+    text-align: center;
+}
+.contact-return {
+    position: absolute;
+    top: 2.5vh;
+    right: 2.5vw;
+    display: flex;
+    gap: 1vh;
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+  }
+.contact-return:hover {
+    text-decoration: line-through;
+}
+.contact-social {
+    font-style: italic;
+}
+.contact-social:hover {
+    text-decoration: line-through;
+}

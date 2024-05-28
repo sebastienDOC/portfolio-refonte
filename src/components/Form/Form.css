@@ -1,0 +1,112 @@
+.contact-form {
+    width: 35%;
+    border-radius: 20px;
+    color: #2b2a2a;
+}
+.contact-form-title{
+    text-align: center;
+    margin: 25px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+}
+label {
+    width: 90%;
+    margin: 0 5px 5px;
+    text-align: left;
+    color: #2b2a2a;
+}
+input {
+    width: 90%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid #3e8453 2px;
+    border-radius: 1rem;
+    background: none;
+    color: black;
+}
+textarea {
+    width: 90%;
+    height: 150px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: solid #3e8453 2px;
+    border-radius: 1rem;
+    background: none;
+    color: black;
+}
+input:focus,
+textarea:focus {
+    background-color: #3e8453;
+    color: white;
+}
+input:focus::placeholder,
+textarea:focus::placeholder {
+    color: white;
+}
+.contact-form-btn {
+    width: 120px;
+    margin: auto;
+    padding: 15px;
+    cursor: pointer;
+    border: solid #3e8453 2px;
+    border-radius: 1rem;
+    background: none;
+    color: white;
+    transition: all 0.3s;
+}
+.contact-form-btn:hover {
+    background-color: #3e8453;
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
+.contact-modal {
+    position: absolute;
+    top: 30%;
+    background-color: white;
+    border-radius: 25px;
+    color: black;
+    padding: 25px 50px;
+}
+.contact-modal-title,
+.contact-modal-txt {
+    text-align: center;
+}
+
+/* Responsive */
+@media screen and (max-width: 1200px){
+    .contact-form {
+        width: 50%;
+    }
+}
+@media screen and (max-width: 1000px){
+    .contact-form {
+        width: 75%;
+        margin-bottom: 25px;
+    }
+    form {
+        width: 75%;
+    }
+}
+@media screen and (max-width: 800px){
+    .contact-form {
+        width: 80%;
+    }
+    form {
+        width: 90%;
+    }
+}
+@media screen and (max-width: 500px){
+    .contact-form {
+        width: 90%;
+    }
+    form {
+        width: 100%;
+    }
+}

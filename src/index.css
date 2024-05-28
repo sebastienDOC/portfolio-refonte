@@ -1,0 +1,131 @@
+/* Import des polices de caractère */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&family=Roboto:wght@300;400;700&family=Tenor+Sans&display=swap');
+
+html {
+  width: 100%;
+  max-width: 1920px;
+  scroll-behavior: smooth;
+  margin: auto;
+  overflow-x: hidden;
+}
+body {
+  max-width: 1920px;
+  background-color: #FBFBFB;
+  color: black;
+  position: relative;
+  overflow-x: hidden;
+  overflow: hidden;
+  margin: auto;
+}
+main {
+  max-width: 1920px;
+  overflow-x : hidden
+}
+section {
+  scroll-behavior: smooth;
+}
+section h2 {
+  text-align: center;
+}
+h1, h2 {
+  font-family: 'Noto Serif', serif;
+  margin: 0;
+  font-size: 50px;
+  color: #3e8453;
+  line-height: 110%;
+}
+h3, h4, a, p, label, div, button {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+h3 {
+  font-size: 26px;
+  margin-bottom: 25px;
+}
+h4 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+ ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+}
+li {
+  margin: 25px 0;
+} 
+a {
+  color: white;
+  text-decoration: none;
+}
+.flex {
+  display: flex;
+}
+.injected-svg {
+  z-index: -1;
+}
+.relative {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.return {
+  position: absolute;
+  top: 2.5vh;
+  right: 27vw;
+  display: flex;
+  color: white;
+  text-decoration: none;
+  font-style: italic;
+}
+.return:hover {
+  text-decoration: line-through;
+}
+
+/* Responsive */
+@media screen and (max-width: 1000px){
+  h1, h2 {
+    font-size: 40px;
+  }
+  h3 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  h4 {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  a, p, label, li, div, button {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 800px){
+  h1, h2 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  h4 {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 500px){
+  h1, h2 {
+    font-size: 25px;
+  }
+  h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  h4 {
+    font-size: 14px;
+  }
+  a, p, label, li, div, button {
+    font-size: 13px;
+  }
+  li {
+    margin: 15px 0;
+  }
+}

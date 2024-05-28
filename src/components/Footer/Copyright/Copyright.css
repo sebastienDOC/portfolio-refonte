@@ -1,0 +1,34 @@
+.copyright {
+    color: black;
+    padding: 10px;
+    text-align: center;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+}
+.copyright-border {
+    border-top: 1px solid black;
+    width: 80%;
+}
+.copyright-txt {
+    margin: 20px;
+}
+
+/* Responsive */
+@media screen and (max-width: 850px){
+    .copyright {
+        width: 75vw;
+    }
+    .copyright-border {
+        border-top: 1px solid black;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 500px){
+    .copyright {
+        font-size: 12px;
+    }
+}

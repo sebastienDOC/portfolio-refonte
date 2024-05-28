@@ -1,0 +1,29 @@
+.cookies-container p,
+.cookies-container li {
+    color: black;
+    text-align: left;
+}
+.cookies-btn {
+    background: none;
+    border: none;
+}
+.cookies-btn:hover {
+    cursor: pointer;
+    color: #3e8453;
+}
+.cookies-title {
+    text-align: center;
+    margin-bottom: 25px;
+}
+.cookies-subtitle {
+    font-weight: bold;
+    font-style: italic;
+}
+.cookies-list {
+    list-style-type:circle;
+    display: flex;
+    flex-direction: column;
+}
+.cookies-list li {
+    margin: 0;
+}
