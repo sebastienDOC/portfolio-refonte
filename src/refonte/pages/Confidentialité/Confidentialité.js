@@ -167,7 +167,7 @@ const Confidentialité = () => {
         </div>
 
         <Link to='/' className='contact-return'>
-            <i class="fa-solid fa-house"></i>
+            <i className="fa-solid fa-house"></i>
             <p>Retour à l'accueil</p>
         </Link>
 

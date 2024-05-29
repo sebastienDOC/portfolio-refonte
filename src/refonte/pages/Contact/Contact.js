@@ -30,18 +30,18 @@ const Contact = () => {
         className='contact-txt'
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5, ease: "easeOut", delay: 1.5}}
+        transition={{ duration: 0.5, ease: "easeOut", delay: 1.3}}
       >
         <a href="mailto:sebastiendechand@gmail.com" className='contact-social'>
-          <i class="fa-solid fa-envelope"></i> 
+          <i className="fa-solid fa-envelope"></i> 
           sebastiendechand@gmail.com
         </a> <br />
         <a href="tel:+33623213815" className='contact-social'>
-          <i class="fa-solid fa-phone"></i> 
+          <i className="fa-solid fa-phone"></i> 
           06.23.21.38.15
         </a><br />
         <a href="https://maps.app.goo.gl/anD7ubER8r8UqoBfA" target="_blank" rel="noreferrer" className='contact-social'>
-          <i class="fa-solid fa-location-dot"></i> 
+          <i className="fa-solid fa-location-dot"></i> 
           12 B rue Jean Jaurès, 21110 Genlis, FRANCE
         </a>
         <br />
@@ -51,7 +51,7 @@ const Contact = () => {
         className='contact-txt'
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5, ease: "easeOut", delay: 2}}
+        transition={{ duration: 0.5, ease: "easeOut", delay: 1.6}}
       >
         Sur internet : 
         <a href='https://www.linkedin.com/in/s%C3%A9bastien-dechand-4653b5265/' target="_blank" rel="noreferrer" className='contact-social'> Linkedin </a>
@@ -60,7 +60,7 @@ const Contact = () => {
         <br />
       </motion.p>
       <Link to='/' className='contact-return'>
-        <i class="fa-solid fa-house"></i>
+        <i className="fa-solid fa-house"></i>
         <p>Retour à l'accueil</p>
       </Link>
       <Navbar />

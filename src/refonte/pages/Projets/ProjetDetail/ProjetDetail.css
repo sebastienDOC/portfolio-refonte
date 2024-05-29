@@ -1,0 +1,114 @@
+/* ProjetDetail.css */
+.projet-detail-container {
+    position: absolute;
+    top: -100vh;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.projet-detail-title {
+    color: white;
+    font-size: 125px;
+}
+.projet-detail-subtitle {
+    color: white;
+}
+.projet-detail-quote {
+    color: white;
+    margin: 0;
+}
+.projet-detail-txt {
+    color: white;
+    width: 40vw;
+    margin: 2vh 0;
+}
+.projet-detail-txt h4{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 300;
+    font-style: italic;
+}
+.projet-detail-txt p{
+    text-align: center;
+}
+.projet-detail-list {
+    color: white;
+    width: 40vw;
+    padding: 0;
+    gap: 5vw;
+    display: flex;
+    justify-content: center;
+    margin: 5vh 0 0;
+}
+.projet-detail-list li{
+    text-align: center;
+}
+.projet-detail-list li h4 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 300;
+    font-style: italic;
+    margin: 0;
+}
+.projet-detail-list li p div{
+    margin: 1vh 0;
+}
+.projet-detail-underline {
+    height: 2px;
+    background-color: white;
+    margin: 0 0 2vh;
+}
+.projet-detail-link {
+    display: inline-block;
+    font-size: 20px;
+    position: relative; 
+    padding: 20px 50px; 
+    background-color: black; 
+    color: white; 
+    text-align: center; 
+    border: none; 
+    border-radius: 50px; 
+    cursor: pointer; 
+    transition: padding 0.3s ease;
+    margin: 0 0 15vh 0;
+}
+.projet-detail-link:hover {
+    padding: 20px 80px; 
+    transition: padding 0.3s ease;
+}
+.projet-detail-bottom {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 2vh;
+    position: relative;
+    top: 75vh;
+    margin-bottom: 5vh;
+}
+.projet-detail-quote {
+    font-size: 50px;
+    font-weight: 300;
+    font-style: italic;
+}
+.projet-return {
+    position: fixed;
+    top: -98.5vh;
+    left: 5vw;
+    display: flex;
+    gap: 1vh;
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+}
+.projet-return:hover {
+    text-decoration: line-through;
+}
+.projet-detail-video {
+    width: 60vw;
+    margin: 5vh 0;
+}

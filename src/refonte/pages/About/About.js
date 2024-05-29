@@ -15,7 +15,7 @@ const About = () => {
           className='about-img'
           initial={{ opacity: 0, x: 50 }}
           animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.5, ease: "easeOut", delay: 4}}
+          transition={{ duration: 0.5, ease: "easeOut", delay: 2.8}}
           src={Seb}
           alt='Sébastien'
       />
@@ -33,7 +33,7 @@ const About = () => {
       </div>
 
       <Link to='/' className='return'>
-        <i class="fa-solid fa-house"></i>
+        <i className="fa-solid fa-house"></i>
         <p>Retour à l'accueil</p>
       </Link>
 
@@ -53,7 +53,7 @@ const About = () => {
           className=''
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, ease: "easeOut", delay: 1.5}}
+          transition={{ duration: 0.5, ease: "easeOut", delay: 1.3}}
         >
           Après avoir consacré une décennie au secteur de la grande distribution, 
           j'ai décidé de réorienter ma carrière vers le monde dynamique et stimulant du développement web. <br />
@@ -63,7 +63,7 @@ const About = () => {
           className=''
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, ease: "easeOut", delay: 2}}
+          transition={{ duration: 0.5, ease: "easeOut", delay: 1.6}}
         >
           Ma transition vers cette nouvelle carrière a été marquée par une formation intensive chez OpenClassrooms,
           où j'ai acquis une expertise technique approfondie. <br />
@@ -76,7 +76,7 @@ const About = () => {
           className=''
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, ease: "easeOut", delay: 2.5}}
+          transition={{ duration: 0.5, ease: "easeOut", delay: 1.9}}
         >
           Je suis toujours prêt à relever de nouveaux défis et à apporter des solutions créatives et efficaces aux projets qui me sont confiés.<br />
           <br />
@@ -90,7 +90,7 @@ const About = () => {
             className='about-xp'
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, ease: "easeOut", delay: 3}}
+            transition={{ duration: 0.5, ease: "easeOut", delay: 2.2}}
         >
           <h3>Expérience</h3>
           <p>- 1 an d'expérience en temps que Développeur Web Front-end</p>
@@ -106,7 +106,7 @@ const About = () => {
             className='about-skills-ctn'
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, ease: "easeOut", delay: 3.5}}
+            transition={{ duration: 0.5, ease: "easeOut", delay: 2.5}}
         >
           <h3>Compétences</h3>
           <div className='about-skills-flex'>

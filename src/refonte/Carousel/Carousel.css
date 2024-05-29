@@ -1,0 +1,55 @@
+.carousel_banner {
+    display: flex;
+    width: 60vw;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 35vh;
+    margin: 5vh 0;
+}  
+.arrow_left {
+    position: absolute;
+    left: -100px;
+}
+.arrow_right {
+    position: absolute;
+    right: -100px;
+}
+.arrow_hidden{
+    display: none;
+}
+.carousel_picture {
+    height: 600px;
+    width: 100%;
+    opacity: 1;
+    object-fit: cover;
+    position: absolute;
+    transition: all 0.5s ease-in-out;
+}
+.hidden {
+    opacity: 0;
+}
+.points {
+    display: flex;
+    position: absolute;
+    bottom: -28vh;
+}
+.point {
+    background-color: white;
+    height: 0.65rem;
+    width: 0.4rem;
+    border-radius: 100%;
+    margin: 0 5px;
+    box-shadow: 0 0 5px #555;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.inactif {
+    background-color: black;
+}
+.point_hidden {
+    display: none;
+}

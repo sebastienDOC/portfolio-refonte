@@ -44,8 +44,8 @@ i {
     text-align: center;
 }
 .contact-return {
-    position: absolute;
-    top: 2.5vh;
+    position: fixed;
+    top: -98.5vh;
     right: 2.5vw;
     display: flex;
     gap: 1vh;

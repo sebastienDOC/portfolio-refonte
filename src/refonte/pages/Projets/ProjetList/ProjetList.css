@@ -1,0 +1,37 @@
+.projets-list-ctn {
+    margin: 0 0 2vh;
+  }
+  
+  .projets-list-ctn h3 {
+    margin: 0;
+    font-size: 80px;
+    display: inline-flex;
+    align-items: center;
+    transform: translateX(-25px);
+    transition: transform 0.3s ease;
+  }
+  
+  .projets-list-title:hover {
+    transform: translateX(20px);
+    font-style: italic;
+  }
+  
+  .arrow {
+    opacity: 0;
+    transform: translateX(-30px);
+    transition: all 0.3s ease;
+    font-size: 50px;
+  }
+  
+  .projets-list-title:hover .arrow {
+    opacity: 1;
+    transform: translateX(-20px);
+    transition: all 0.3s ease;
+  }
+  
+  .projets-separate {
+    background-color: white;
+    width: 80%;
+    height: 2px;
+  }
+  
