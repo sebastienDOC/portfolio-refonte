@@ -3,6 +3,7 @@ import './Cookies.css'
 import Navbar from '../Accueil/Navbar/Navbar';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
+import BurgerMenu from '../../BurgerMenu/BurgerMenu';
 
 const Cookies = () => {
     return (
@@ -123,12 +124,9 @@ const Cookies = () => {
                 </div>
             </div>
 
-                <Link to='/' className='contact-return'>
-                    <i className="fa-solid fa-house"></i>
-                    <p>Retour à l'accueil</p>
-                </Link>
+            <BurgerMenu />
 
-                <Navbar />
+            <Navbar />
         </div>
   )
 }

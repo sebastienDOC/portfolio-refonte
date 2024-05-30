@@ -16,13 +16,11 @@ const Accueil = () => {
             <h1 className='container-title'>SÉBASTIEN DECHAND</h1>
             <br/>
             <p>
-                Développeur Web Front-End <br/>
-                Dijon et la Bourgogne Franche-Comté <br/>
+                Développeur Web Front-End certifié basé à Dijon. <br/>
             </p>
             <br/>
             <p>
-                Nous sommes une entreprise dynamique spécialisée dans le développement web sur mesure. <br />
-                Pour les TPE, PME ou même les particuliers.
+                Développement web sur mesure pour les PME, TPE et particuliers.
             </p>
         </div>
         <ul className='container-list'>

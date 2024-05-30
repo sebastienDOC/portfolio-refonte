@@ -3,6 +3,7 @@ import './Mentions.css';
 import Navbar from '../Accueil/Navbar/Navbar';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
+import BurgerMenu from '../../BurgerMenu/BurgerMenu';
 
 const Mentions = () => {
     return (
@@ -76,6 +77,9 @@ const Mentions = () => {
                     </motion.p>
                     <br/>
 
+                </div>
+
+                <div className='mentions-col'>
                     <motion.p
                         className='mentions-subtitle'
                         initial={{ opacity: 0, x: -50 }}
@@ -95,9 +99,6 @@ const Mentions = () => {
                         L’intégralité des documents, informations, images, vidéos ou tout autre contenu de toute nature que ce soit sont non libres de reproduction.
                     </motion.p>
                     <br/>
-                </div>
-
-                <div className='mentions-col'>
                     <motion.p
                         className='mentions-subtitle'
                         initial={{ opacity: 0, x: 50 }}
@@ -118,6 +119,9 @@ const Mentions = () => {
                     </motion.p>  
                     <br/>
 
+                </div>
+
+                <div className='mentions-col'>
                     <motion.p
                         className='mentions-subtitle'
                         initial={{ opacity: 0, x: 50 }}
@@ -177,11 +181,7 @@ const Mentions = () => {
                 </div>
             </div>
             
-
-            <Link to='/' className='contact-return'>
-                <i className="fa-solid fa-house"></i>
-                <p>Retour à l'accueil</p>
-            </Link>
+            <BurgerMenu />
 
             <Navbar />
         </div>

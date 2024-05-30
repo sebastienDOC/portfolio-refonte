@@ -10,7 +10,7 @@ const Navbar = () => {
           <span></span>
         </div>
         <div className='navbar-right'> 
-          <Link to='/mentions' className='conf-btn'>Mentions Légales</Link>
+          <Link to='/mentions' className='conf-btn'>Mentions</Link>
           <Link to='/confidentialite' className='conf-btn'>Confidentialité</Link>
           <Link to='/cookies' className='conf-btn'>Cookies</Link>       
         </div>

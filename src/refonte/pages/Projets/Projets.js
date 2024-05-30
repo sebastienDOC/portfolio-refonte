@@ -6,6 +6,7 @@ import projetsData from '../../../data/projets.json';
 import ProjetList from './ProjetList/ProjetList';
 import ProjetImg from './ProjetImg/ProjetImg';
 import Navbar from '../Accueil/Navbar/Navbar';
+import BurgerMenu from '../../BurgerMenu/BurgerMenu';
 
 const Projets = () => {
     const [hoveredProject, setHoveredProject] = useState(null);
@@ -36,9 +37,9 @@ const Projets = () => {
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.5, ease: "easeOut", delay: 1 }}
                 >
-                    Bienvenue sur mon portfolio en ligne, où vous découvrirez une sélection de mes meilleurs travaux en développement web front-end.
-                    <br />
-                    Vous pourrez trouver ici des projets réalisés pendant ma formation et d'autres projets professionnels.
+                    Bienvenue dans mon portfolio en ligne où vous découvrirez des projets réalisés pendant ma formation 
+                    et d'autres projets professionnels. <br />
+                    Je conçois des sites modernes et intuitifs qui captivent les utilisateurs dès la première visite. 
                 </motion.p>
                 <br />
                 <motion.p
@@ -46,8 +47,9 @@ const Projets = () => {
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.5, ease: "easeOut", delay: 1.3 }}
                 >
-                    Chaque jour est une nouvelle occasion pour moi d'apprendre, d'acquérir de nouvelles compétences et d'améliorer mes capacités
-                    pour créer des expériences utilisateur exceptionnelles.
+                    Ma maitrise des langages de développement du HTML, CSS 3, ReactJS, Redux, Sass, Javascript 
+                    vous garantit des applications rapides, bien structurées et responsive. <br />
+                    J'optimise la visibilité de vos projets sur les moteurs de recherche.
                 </motion.p>
             </div>
 
@@ -90,10 +92,7 @@ const Projets = () => {
                 </div>
             </div>
 
-            <Link to='/' className='contact-return'>
-                <i className="fa-solid fa-house"></i>
-                <p>Retour à l'accueil</p>
-            </Link>
+            <BurgerMenu />
 
             <Navbar />
         </div>

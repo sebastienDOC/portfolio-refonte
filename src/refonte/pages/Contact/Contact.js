@@ -3,6 +3,7 @@ import './Contact.css'
 import Navbar from '../Accueil/Navbar/Navbar';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
+import BurgerMenu from '../../BurgerMenu/BurgerMenu';
 
 const Contact = () => {
   return (
@@ -38,12 +39,9 @@ const Contact = () => {
         </a> <br />
         <a href="tel:+33623213815" className='contact-social'>
           <i className="fa-solid fa-phone"></i> 
-          06.23.21.38.15
-        </a><br />
-        <a href="https://maps.app.goo.gl/anD7ubER8r8UqoBfA" target="_blank" rel="noreferrer" className='contact-social'>
-          <i className="fa-solid fa-location-dot"></i> 
-          12 B rue Jean Jaurès, 21110 Genlis, FRANCE
+          +33 6.23.21.38.15
         </a>
+
         <br />
         <br />
       </motion.p>
@@ -59,10 +57,7 @@ const Contact = () => {
         <a href='https://github.com/sebastienDOC?tab=repositories' target="_blank" rel="noreferrer" className='contact-social'> Github </a>
         <br />
       </motion.p>
-      <Link to='/' className='contact-return'>
-        <i className="fa-solid fa-house"></i>
-        <p>Retour à l'accueil</p>
-      </Link>
+      <BurgerMenu />
       <Navbar />
     </div>
   )

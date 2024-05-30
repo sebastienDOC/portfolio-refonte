@@ -3,13 +3,13 @@
 
 html {
   width: 100%;
-  max-width: 1920px;
+
   scroll-behavior: smooth;
   margin: auto;
   overflow-x: hidden;
 }
 body {
-  max-width: 1920px;
+
   background-color: #FBFBFB;
   color: black;
   position: relative;
@@ -18,7 +18,7 @@ body {
   margin: auto;
 }
 main {
-  max-width: 1920px;
+
   overflow-x : hidden
 }
 section {
@@ -37,6 +37,9 @@ h1, h2, h3, h4 {
 a, p, label, div, button {
   font-family: 'Roboto', sans-serif;
   margin: 0;
+}
+p, a {
+  font-size: 18px;
 }
 h3 {
   font-size: 26px;
