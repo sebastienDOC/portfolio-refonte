@@ -6,17 +6,17 @@
     width: 100vw;
 }
 .about-ctn h1.about-title{
-    color: white;
+    color: #FAF5E9;
     font-size: 150px;
     font-family: 'Noto Serif', sans-serif;
 }
 .about-ctn h2.about-sub {
-    color: white;
+    color: #FAF5E9;
     font-family: 'Noto Serif', sans-serif;
 }
 .about-ctn h3,
 .about-ctn h4 {
-    color: white;
+    color: #FAF5E9;
     font-family: 'Noto Serif', sans-serif;
 }
 .about-img {
@@ -29,28 +29,28 @@
     right: 0;
 }
 .about-title-ctn {
-    color: white;
+    color: #FAF5E9;
     width: 50vw;
     position: relative;
     top: 5vh;
     left: 7.5vw;
 }
 .about-sub-ctn {
-    color: white;
+    color: #FAF5E9;
     width: 40vw;
     position: relative;
     top: 5vh;
     left: 7.5vw;
 }
 .about-txt-ctn {
-    color: white;
+    color: #FAF5E9;
     width: 50vw;
     position: relative;
     top: 10vh;
     left: 7.5vw;
 }
 .about-xp-ctn {
-    color: white;
+    color: #FAF5E9;
     width: 50vw;
     position: relative;
     top: 10vh;

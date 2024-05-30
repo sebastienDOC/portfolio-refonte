@@ -6,7 +6,7 @@
     width: 100vw;
 }
 .contact-ctn h1.contact-title{
-    color: white;
+    color: #FAF5E9;
     font-size: 230px;
     font-family: 'Noto Serif', sans-serif;
     font-weight: 400;
@@ -16,23 +16,23 @@
     left: 7.5vw;
 }
 .contact-ctn h2.contact-sub {
-    color: white;
+    color: #FAF5E9;
     font-family: 'Noto Serif', sans-serif;
 }
 .contact-ctn h3,
 .contact-ctn h4 {
-    color: white;
+    color: #FAF5E9;
     font-family: 'Noto Serif', sans-serif;
 }
 .about-title-ctn {
-    color: white;
+    color: #FAF5E9;
     width: 50vw;
     position: relative;
     top: 5vh;
     left: 7.5vw;
 }
 .contact-txt {
-    color: white;
+    color: #FAF5E9;
     width: 30vw;
     position: relative;
     top: 30vh;
@@ -49,7 +49,7 @@ i {
     right: 2.5vw;
     display: flex;
     gap: 1vh;
-    color: white;
+    color: #FAF5E9;
     text-decoration: none;
     font-style: italic;
   }

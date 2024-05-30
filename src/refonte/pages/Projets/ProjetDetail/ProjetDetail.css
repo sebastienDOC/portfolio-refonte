@@ -13,24 +13,39 @@
 }
 .projet-detail-title-ctn {
     text-align: center;
-    margin: 5vh 0 2vh;
-    width: 80vw;
+    margin: 0 0 2vh;
+    width: 75vw;
+    min-height: 90vh;
+    background-color: #FAF5E9;
+    position: relative;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
 }
 .projet-detail-title {
-    color: white;
+    color: black;
+    background-color: none;
     font-size: 125px;
     font-weight: 300;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 20vh;
 }
 .projet-detail-subtitle {
-    color: white;
+    color: black;
+    background-color: none;
     font-weight: 300;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 15vh;
 }
 .projet-detail-quote {
-    color: white;
+    color: #FAF5E9;
     margin: 0;
 }
 .projet-detail-txt {
-    color: white;
+    color: #FAF5E9;
     width: 40vw;
     margin: 0vh 0 5vh;
 }
@@ -44,7 +59,7 @@
     text-align: center;
 }
 .projet-detail-list {
-    color: white;
+    color: #FAF5E9;
     width: 40vw;
     padding: 0;
     gap: 5vw;
@@ -67,7 +82,7 @@
 }
 .projet-detail-underline {
     height: 2px;
-    background-color: white;
+    background-color: #FAF5E9;
     margin: 0 0 2vh;
 }
 .projet-detail-link {
@@ -75,8 +90,7 @@
     font-size: 20px;
     position: relative; 
     padding: 20px 50px; 
-    background-color: black; 
-    color: white; 
+    background-color: #FAF5E9; 
     text-align: center; 
     border: none; 
     border-radius: 50px; 
@@ -87,6 +101,9 @@
 .projet-detail-link:hover {
     padding: 20px 80px; 
     transition: padding 0.3s ease;
+}
+.projet-detail-link a {
+    color: black; 
 }
 .projet-detail-bottom {
     display: flex;
@@ -108,7 +125,7 @@
     left: 5vw;
     display: flex;
     gap: 1vh;
-    color: white;
+    color: #FAF5E9;
     text-decoration: none;
     font-style: italic;
 }

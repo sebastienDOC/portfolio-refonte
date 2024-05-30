@@ -8,7 +8,7 @@
     align-items: flex-start;
 }
 .container p{
-    color: white;
+    color: #FAF5E9;
     max-width: 300px;
 }
 .container-logo {
@@ -23,7 +23,7 @@
     width: 50px;
 }
 .container-title {
-    color: white;
+    color: #FAF5E9;
     font-size: 30px;
     font-weight: 400;
 }
@@ -43,7 +43,7 @@
     line-height: normal;
 }
 .container-sub {
-    color: white;
+    color: #FAF5E9;
     font-size: 150px;
     font-family: 'Noto Serif', sans-serif;
     text-decoration: none;
@@ -59,14 +59,14 @@
     position: absolute;
     bottom: 13vh;
     right: 75vh;
-    color: white;
+    color: #FAF5E9;
     font-size: 50px;
 }
 .container-social-gh {
     position: absolute;
     bottom: 13vh;
     right: 50vh;
-    color: white;
+    color: #FAF5E9;
     font-size: 50px;
 }
 .container-social a {
@@ -74,7 +74,7 @@
     align-items: center;
     justify-content: center;
     gap: 10px;
-    color: white;
+    color: #FAF5E9;
     text-decoration: none;
 }
 .container-social-gh a {
@@ -82,7 +82,7 @@
     align-items: center;
     justify-content: center;
     gap: 10px;
-    color: white;
+    color: #FAF5E9;
     text-decoration: none;
 }
 .container-social-img {
@@ -90,7 +90,7 @@
 }
 div.underline {
     height: 3px;
-    background-color: white;
+    background-color: #FAF5E9;
     width: 0;
     transition: all 0.5s ease-in-out;
 }

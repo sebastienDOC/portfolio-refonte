@@ -31,7 +31,7 @@ h1, h2, h3, h4 {
   font-family: 'Noto Serif', serif;
   margin: 0;
   font-size: 50px;
-  color: white;
+  color: #FAF5E9;
   line-height: 110%;
 }
 a, p, label, div, button {
@@ -55,7 +55,7 @@ li {
   margin: 25px 0;
 } 
 a {
-  color: white;
+  color: #FAF5E9;
   text-decoration: none;
 }
 .flex {
@@ -74,7 +74,7 @@ a {
   top: 2.5vh;
   right: 27vw;
   display: flex;
-  color: white;
+  color: #FAF5E9;
   text-decoration: none;
   font-style: italic;
 }

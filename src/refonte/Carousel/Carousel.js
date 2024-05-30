@@ -23,7 +23,7 @@ function Carousel({data}) {
             className="carousel_banner"
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, ease: "easeOut", delay: 2.5 }}
+            transition={{ duration: 0.5, ease: "easeOut", delay: 4 }}
         >
             {data.map((image, id) => {
                 return <img 

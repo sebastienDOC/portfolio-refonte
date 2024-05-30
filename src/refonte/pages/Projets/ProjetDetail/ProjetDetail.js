@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import Navbar from '../../Accueil/Navbar/Navbar';
 import Carousel from '../../../Carousel/Carousel';
+import NavProjet from '../NavProjet/NavProjet';
 
 const ProjetDetail = () => {
     const { id } = useParams();
@@ -60,19 +61,26 @@ const ProjetDetail = () => {
             
             <motion.div
                 className='projet-detail-title-ctn'
-                initial={{ opacity: 0, y: -50 }}
+                initial={{ opacity: 0, y: -1000 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, ease: "easeOut", delay: 0.5 }}
+                transition={{ duration: 0.5, ease: "easeOut", delay: 0.75 }}
             >
-                <h1 className='projet-detail-title'>{project.title}</h1>
-                <h2 className='projet-detail-subtitle'>{project.subtitle}</h2>
+                <motion.div
+                    className='projet-detail-title-ctn'
+                    initial={{ opacity: 0, y: 10 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.5, ease: "easeOut", delay: 1.5 }}
+                >
+                    <h1 className='projet-detail-title'>{project.title}</h1>
+                    <h2 className='projet-detail-subtitle'>{project.subtitle}</h2>
+                </motion.div>
             </motion.div>
             
             <motion.ul
                 className='projet-detail-list'
                 initial={{ opacity: 0, y: -50 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, ease: "easeOut", delay: 1 }}
+                transition={{ duration: 0.5, ease: "easeOut", delay: 2 }}
             >
                 <li>
                     <h4>Rôle</h4>
@@ -101,7 +109,7 @@ const ProjetDetail = () => {
                 className='projet-detail-video'
                 initial={{ opacity: 0, y: 50 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, ease: "easeOut", delay: 1.5 }}
+                transition={{ duration: 0.5, ease: "easeOut", delay: 2.5 }}
                 ref={videoRef}
                 src={getVideo(project.video)} 
                 autoPlay 
@@ -115,7 +123,7 @@ const ProjetDetail = () => {
                 className='projet-detail-txt'
                 initial={{ opacity: 0, y: 50 }}
                 animate={{ opacity: 1, x: 0 }}
-                transition={{ duration: 0.5, ease: "easeOut", delay: 2 }}
+                transition={{ duration: 0.5, ease: "easeOut", delay: 3 }}
             >
                 <h4>Client</h4>
                 <p>{project.client}</p>
@@ -125,7 +133,7 @@ const ProjetDetail = () => {
                 className='projet-detail-txt'
                 initial={{ opacity: 0, y: 50 }}
                 animate={{ opacity: 1, x: 0 }}
-                transition={{ duration: 0.5, ease: "easeOut", delay: 2 }}
+                transition={{ duration: 0.5, ease: "easeOut", delay: 3.5 }}
             >
                 <h4>Mission</h4>
                 <p>{project.description}</p>
@@ -136,7 +144,7 @@ const ProjetDetail = () => {
             <motion.div
                 initial={{ opacity: 0, y: 50 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, ease: "easeOut", delay: 3 }}
+                transition={{ duration: 0.5, ease: "easeOut", delay: 4.5 }}
             >
                 <div className='projet-detail-bottom'>
                     <h3 className='projet-detail-quote'>Consultez le.</h3>
@@ -163,12 +171,7 @@ const ProjetDetail = () => {
                 <p>Retour à l'accueil</p>
             </Link>
 
-            <Link to='/projets' className='projet-return'>
-                <i className="fa-solid fa-person-running"></i>
-                <p>Retour aux projets</p>
-            </Link>
-
-            <Navbar />
+            <NavProjet />
         </div>
     );
 };

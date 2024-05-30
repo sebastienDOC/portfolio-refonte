@@ -1,4 +1,4 @@
-.navbar-ctn {
+.navprojet-ctn {
     position: fixed;
     bottom: 0;
     left: 50px;
@@ -10,30 +10,30 @@
     transform-origin: left;
     transform: rotate(270deg);
 }
-.navbar-separate {
+.navprojet-separate {
     height: 20px;
     width: 25vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.navbar-separate span{
+.navprojet-separate span{
     background-color: #FAF5E9;
     height: 2px;
     width: 100%;
 }
-.navbar-left {
+.navprojet-left {
     padding-left: 50px;
 }
-.navbar-right {
+.navprojet-right {
     display: flex;
     padding-right: 50px;
     gap: 10px;
 }
-.navbar-right a{
+.navprojet-right a{
     color: #FAF5E9;    
     text-decoration: none;
 }
-.navbar-right a:hover{
+.navprojet-right a:hover{
     text-decoration: line-through;
 }

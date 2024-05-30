@@ -23,7 +23,7 @@
 }
 .mentions-container p,
 .mentions-container li {
-    color: white;
+    color: #FAF5E9;
     text-align: left;
 }
 .mentions-btn {
@@ -34,7 +34,7 @@
     cursor: pointer;
 }
 .mentions-title {
-    color: white;
+    color: #FAF5E9;
     text-align: center;
     margin-bottom: 25px;
     font-size: 125px;
