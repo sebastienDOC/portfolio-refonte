@@ -10,7 +10,7 @@ const NavProjet = () => {
           <span></span>
         </div>
         <div className='navprojet-right'> 
-          <Link to='/projet' className='conf-btn'>Projets</Link>     
+          <Link to='/projets' className='conf-btn'>Projets</Link>     
         </div>
     </div>
   )
