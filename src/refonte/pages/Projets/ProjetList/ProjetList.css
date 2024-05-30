@@ -9,6 +9,7 @@
     align-items: center;
     transform: translateX(-25px);
     transition: transform 0.3s ease;
+    font-weight: 400;
   }
   
   .projets-list-title:hover {

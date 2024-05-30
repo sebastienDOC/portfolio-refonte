@@ -2,6 +2,7 @@ import React, { useState } from "react"
 import './Carousel.css'
 import ArrowLeft from '../../assets/arrow-left.png';
 import ArrowRight from '../../assets/arrow-right.png';
+import { motion } from 'framer-motion';
 
 function Carousel({data}) {
     const [slide, setSlide] = useState(0);
@@ -18,14 +19,20 @@ function Carousel({data}) {
         return images;
     }
     return (
-        <div className="carousel_banner">{data.map((image, id) => {
-            return <img 
-                src={getImgCover(image)} 
-                alt={image} 
-                key={id} 
-                className={slide === id ? "carousel_picture" : "carousel_picture hidden" } 
-            />
-        })}
+        <motion.div
+            className="carousel_banner"
+            initial={{ opacity: 0, y: 50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, ease: "easeOut", delay: 2.5 }}
+        >
+            {data.map((image, id) => {
+                return <img 
+                    src={getImgCover(image)} 
+                    alt={image} 
+                    key={id} 
+                    className={slide === id ? "carousel_picture" : "carousel_picture hidden" } 
+                />
+            })}
             <img 
                 src={ArrowLeft} 
                 alt='Flêche gauche' 
@@ -47,7 +54,7 @@ function Carousel({data}) {
                         </button>
                     })}
             </span>)}
-        </div>
+        </motion.div>
     )
 }
 

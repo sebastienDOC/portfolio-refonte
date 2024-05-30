@@ -44,7 +44,7 @@ const ProjetDetail = () => {
                 observer.unobserve(videoRef.current);
             }
         };
-    }, [project]); // Make sure to include project in the dependencies array
+    }, [project]);
 
     if (!project) {
         return <div>Projet non trouvé</div>;
@@ -58,10 +58,22 @@ const ProjetDetail = () => {
     return (
         <div className="projet-detail-container">
             
-            <h1 className='projet-detail-title'>{project.title}</h1>
-            <h2 className='projet-detail-subtitle'>{project.subtitle}</h2>
+            <motion.div
+                className='projet-detail-title-ctn'
+                initial={{ opacity: 0, y: -50 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, ease: "easeOut", delay: 0.5 }}
+            >
+                <h1 className='projet-detail-title'>{project.title}</h1>
+                <h2 className='projet-detail-subtitle'>{project.subtitle}</h2>
+            </motion.div>
             
-            <ul className='projet-detail-list'>
+            <motion.ul
+                className='projet-detail-list'
+                initial={{ opacity: 0, y: -50 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, ease: "easeOut", delay: 1 }}
+            >
                 <li>
                     <h4>Rôle</h4>
                     <div className='projet-detail-underline'></div>
@@ -83,39 +95,68 @@ const ProjetDetail = () => {
                         {project.link ? project.link : project.github}
                     </a>
                 </li>
-            </ul>
+            </motion.ul>
 
-            <video ref={videoRef} src={getVideo(project.video)} autoPlay loop muted alt="Visualisation rapide du site" type="video/mp4" className='projet-detail-video'/>
+            <motion.video
+                className='projet-detail-video'
+                initial={{ opacity: 0, y: 50 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, ease: "easeOut", delay: 1.5 }}
+                ref={videoRef}
+                src={getVideo(project.video)} 
+                autoPlay 
+                loop 
+                muted 
+                alt="Visualisation rapide du site" 
+                type="video/mp4" 
+            />
 
-            <div className='projet-detail-txt'>
+            <motion.div
+                className='projet-detail-txt'
+                initial={{ opacity: 0, y: 50 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.5, ease: "easeOut", delay: 2 }}
+            >
                 <h4>Client</h4>
                 <p>{project.client}</p>
-            </div>
-            <div className='projet-detail-txt'>
+            </motion.div>
+
+            <motion.div
+                className='projet-detail-txt'
+                initial={{ opacity: 0, y: 50 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.5, ease: "easeOut", delay: 2 }}
+            >
                 <h4>Mission</h4>
                 <p>{project.description}</p>
-            </div>
+            </motion.div>
 
             <Carousel data={project.pictures}/>
 
-            <div className='projet-detail-bottom'>
-                <h3 className='projet-detail-quote'>Consultez le.</h3>
-                {project.link ?
-                    project.link && 
-                        <button className='projet-detail-link'>
-                            <a href={project.link} target="_blank" rel="noopener noreferrer">
-                                {project.link}
-                            </a>
-                        </button>
-                    : 
-                    project.github && 
-                        <button className='projet-detail-link'>
-                            <a href={project.github} target="_blank" rel="noopener noreferrer" >
-                                {project.github}
-                            </a>
-                        </button>
-                }
-            </div>
+            <motion.div
+                initial={{ opacity: 0, y: 50 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, ease: "easeOut", delay: 3 }}
+            >
+                <div className='projet-detail-bottom'>
+                    <h3 className='projet-detail-quote'>Consultez le.</h3>
+                    {project.link ?
+                        project.link && 
+                            <button className='projet-detail-link'>
+                                <a href={project.link} target="_blank" rel="noopener noreferrer">
+                                    {project.link}
+                                </a>
+                            </button>
+                        : 
+                        project.github && 
+                            <button className='projet-detail-link'>
+                                <a href={project.github} target="_blank" rel="noopener noreferrer" >
+                                    {project.github}
+                                </a>
+                            </button>
+                    }
+                </div>
+            </motion.div>
 
             <Link to='/' className='contact-return'>
                 <i className="fa-solid fa-house"></i>

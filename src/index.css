@@ -27,14 +27,14 @@ section {
 section h2 {
   text-align: center;
 }
-h1, h2 {
+h1, h2, h3, h4 {
   font-family: 'Noto Serif', serif;
   margin: 0;
   font-size: 50px;
-  color: #3e8453;
+  color: white;
   line-height: 110%;
 }
-h3, h4, a, p, label, div, button {
+a, p, label, div, button {
   font-family: 'Roboto', sans-serif;
   margin: 0;
 }

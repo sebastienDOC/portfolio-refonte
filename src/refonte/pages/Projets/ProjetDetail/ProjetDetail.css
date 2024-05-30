@@ -11,12 +11,19 @@
     overflow-x: hidden;
     overflow-y: auto;
 }
+.projet-detail-title-ctn {
+    text-align: center;
+    margin: 5vh 0 2vh;
+    width: 80vw;
+}
 .projet-detail-title {
     color: white;
     font-size: 125px;
+    font-weight: 300;
 }
 .projet-detail-subtitle {
     color: white;
+    font-weight: 300;
 }
 .projet-detail-quote {
     color: white;
@@ -25,7 +32,7 @@
 .projet-detail-txt {
     color: white;
     width: 40vw;
-    margin: 2vh 0;
+    margin: 0vh 0 5vh;
 }
 .projet-detail-txt h4{
     text-align: center;
@@ -108,7 +115,11 @@
 .projet-return:hover {
     text-decoration: line-through;
 }
+.projet-return i {
+    transform: scaleX(-1);
+}
 .projet-detail-video {
     width: 60vw;
-    margin: 5vh 0;
+    margin: 5vh 0 0;
+    border-radius: 20px;
 }

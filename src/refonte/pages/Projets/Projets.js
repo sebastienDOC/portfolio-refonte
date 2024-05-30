@@ -15,7 +15,7 @@ const Projets = () => {
             opacity: 1,
             x: 0,
             transition: {
-                delay: i * 0.5
+                delay: i * 0.3
             },
         }),
     };
