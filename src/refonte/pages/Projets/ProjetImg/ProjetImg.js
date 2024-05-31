@@ -13,7 +13,7 @@ const ProjetImg = ({cover, alt, id, type}) => {
                 <img src={Logo} alt="Logo de Sébastien Dechand" className='projets-logo' title='Projet Professionnel / Personnel'/> 
             }
         </div>
-        <img src={cover} alt={alt} style={{ display: 'block' }} preload/>
+        <img src={cover} alt={alt} style={{ display: 'block' }} preload="true"/>
       </div>
   )
 }

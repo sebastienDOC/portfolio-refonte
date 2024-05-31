@@ -2,14 +2,16 @@
 import React from 'react';
 import './About.css';
 import Navbar from '../Accueil/Navbar/Navbar';
-import { Link } from 'react-router-dom';
+import skillsData from '../../../data/skills.json'
 import { motion } from 'framer-motion';
 import Seb from '../../../assets/photo/Seb.jpg';
 import diplome from '../../../assets/photo/Diplome.pdf'
 import cv from '../../../assets/photo/CV.pdf'
 import BurgerMenu from '../../BurgerMenu/BurgerMenu';
+import SkillsList from '../../SkillsList/SkillsList';
 
 const About = () => {
+
   return (
     <div className='about-ctn'>
       <motion.img
@@ -120,29 +122,15 @@ const About = () => {
           <div className='about-skills-flex'>
             <div className='about-skills'>
               <h4>Front-end</h4>
-              <ul className='about-skills-list'>
-                <li>HTML 5</li>
-                <li>CSS 3</li>
-                <li>JavaScript</li>
-                <li>ReactJS</li>
-                <li>Sass</li>
-              </ul>
+              <SkillsList skills={skillsData[0].front}/>
             </div>
             <div className='about-skills'>
               <h4>Back-end</h4>
-              <ul className='about-skills-list'>
-                <li>Node.js</li>
-                <li>Express.js</li>
-                <li>MongoDB</li>
-              </ul>
+              <SkillsList skills={skillsData[1].back}/>
             </div>
             <div className='about-skills'>
               <h4>Autre</h4>
-              <ul className='about-skills-list'>
-                <li>GitHub</li>
-                <li>Notion</li>
-                <li>SEO</li>
-              </ul>
+              <SkillsList skills={skillsData[2].autre}/>
             </div>
           </div>
         </motion.div> 

@@ -2,11 +2,11 @@ import React, { useEffect, useRef } from 'react';
 import { useParams } from 'react-router-dom';
 import projetsData from '../../../../data/projets.json';
 import './ProjetDetail.css';
-import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import Navbar from '../../Accueil/Navbar/Navbar';
+import BurgerMenu from '../../../BurgerMenu/BurgerMenu';
 import Carousel from '../../../Carousel/Carousel';
 import NavProjet from '../NavProjet/NavProjet';
+import SkillsList from '../../../SkillsList/SkillsList';
 
 const ProjetDetail = () => {
     const { id } = useParams();
@@ -90,11 +90,7 @@ const ProjetDetail = () => {
                 <li>
                     <h4>Compétences</h4>
                     <div className='projet-detail-underline'></div>
-                    <p className="projet-detail-skills">
-                        {project.skills.map((skill, index) => (
-                            <div key={index}>{skill}</div>
-                        ))}
-                    </p>
+                    <SkillsList skills={project.skills} />
                 </li>
                 <li>
                     <h4>URL</h4>
@@ -166,10 +162,7 @@ const ProjetDetail = () => {
                 </div>
             </motion.div>
 
-            <Link to='/' className='contact-return'>
-                <i className="fa-solid fa-house"></i>
-                <p>Retour à l'accueil</p>
-            </Link>
+            <BurgerMenu />
 
             <NavProjet />
         </div>

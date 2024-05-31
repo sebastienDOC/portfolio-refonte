@@ -15,12 +15,26 @@
                 "github": "https://github.com/sebastienDOC/AnaMarCol",
                 "link": "https://stock.anamarcol.com/",
                 "skills": [
-                    "React",
-                    "Redux",
-                    "Node.js / Express.js",
-                    "MongoDB",
-                    "CSS",
-                    "SEO"
+                    {
+                        "name": "React",
+                        "logo": "/react.webp"
+                    },
+                    {
+                        "name": "Redux",
+                        "logo": "/redux.webp"
+                    },
+                    {
+                        "name": "CSS",
+                        "logo": "/css.webp"
+                    },
+                    {
+                        "name": "SEO",
+                        "logo": "/seo.webp"
+                    },
+                    {
+                        "name": "Node.js",
+                        "logo": "/node.webp"
+                    }
                 ],
                 "pictures": [
                     "anamarcol/accueil.png",
@@ -47,9 +61,18 @@
                 "github": "https://github.com/sebastienDOC/AllianceEquine",
                 "link": "https://alliance-equine.vercel.app/",
                 "skills": [
-                    "React",
-                    "CSS",
-                    "SEO"
+                    {
+                        "name": "React",
+                        "logo": "/react.webp"
+                    },
+                    {
+                        "name": "CSS",
+                        "logo": "/css.webp"
+                    },
+                    {
+                        "name": "SEO",
+                        "logo": "/seo.webp"
+                    }
                 ],
                 "pictures": [
                     "alliance/accueil.png",
@@ -79,10 +102,22 @@
                 "description": "La mission se déroule en deux phases. Phase 1 : sur la base du site statique, je dois développer grâce à Redux, le système d'authentification des utilisateurs du site. Phase 2 : je dois mettre au point le descriptif des routes API qui permettent à l'utilisateur de visualiser les transactions sur ses comptes bancaire grâce à l'outil Swagger Editor.",
                 "github": "https://github.com/sebastienDOC/ArgentBank",
                 "skills": [
-                    "React",
-                    "Redux",
-                    "CSS",
-                    "Swagger"
+                    {
+                        "name": "React",
+                        "logo": "/react.webp"
+                    },
+                    {
+                        "name": "Redux",
+                        "logo": "/redux.webp"
+                    },
+                    {
+                        "name": "CSS",
+                        "logo": "/css.webp"
+                    },
+                    {
+                        "name": "Swagger",
+                        "logo": "/swagger.webp"
+                    }
                 ],
                 "pictures": [
                     "argentbank/accueil.png",
@@ -108,9 +143,17 @@
                 "description": "L’agence souhaite publier la nouvelle version de son site vitrine. Il s’agit d’un site one-page. Le design a été validé, et un premier développeur freelance a commencé l’intégration il y a quelques semaines. Malheureusement, ce freelance a dû abandonner le projet pour raisons personnelles. Le site est fonctionnel, mais quelques bugs entravent le bon usage par les visiteurs. 77 Events fait donc appel à vous pour finaliser le travail.",
                 "github": "https://github.com/sebastienDOC/77-Events",
                 "skills": [
-                    "React",
-                    "Sass",
-                    "Debugger"
+                    {
+                        "name": "React",
+                        "logo": "/react.webp"
+                    },
+                    {
+                        "name": "Sass",
+                        "logo": "/sass.webp"
+                    },
+                    {
+                        "name": "Debugger"
+                    }
                 ],
                 "pictures": [
                     "77events/carousel.png",
@@ -138,10 +181,18 @@
                 "link": "https://sebastiendoc.github.io/NinaCarducci/",
                 "figma": "https://course.oc-static.com/projects/D%C3%A9veloppeur+Web/IW_P9+Optimisation/audit_nina_carducci.pdf",
                 "skills": [
-                    "React",
-                    "CSS",
-                    "SEO",
-                    "Optimisation"
+                    {
+                        "name": "React",
+                        "logo": "/react.webp"
+                    },
+                    {
+                        "name": "CSS",
+                        "logo": "/css.webp"
+                    },
+                    {
+                        "name": "SEO",
+                        "logo": "/seo.webp"
+                    }
                 ],
                 "pictures": [
                     "nina/carousel.png",
@@ -170,8 +221,14 @@
                 "link": "https://sebastiendoc.github.io/kasa/",
                 "figma": "https://www.figma.com/file/qEno0LwL4ZLkWyeY59kxp1/UI-Design-Kasa-FR?type=design&node-id=0-1&mode=design",
                 "skills": [
-                    "React",
-                    "CSS"
+                    {
+                        "name": "React",
+                        "logo": "/react.webp"
+                    },
+                    {
+                        "name": "CSS",
+                        "logo": "/css.webp"
+                    }
                 ],
                 "pictures": [
                     "kasa/accueil_1.png",
@@ -201,9 +258,18 @@
                 "github": "https://github.com/sebastienDOC/P6-SophieBluel",
                 "figma": "https://www.figma.com/file/kfKHknHySoTibZfdolGAX6/Sophie-Bluel---Desktop?type=design&node-id=0-1&mode=design",
                 "skills": [
-                    "JavaSscript",
-                    "CSS",
-                    "HTML"
+                    {
+                        "name": "JavaScript",
+                        "logo": "/javascript.webp"
+                    },
+                    {
+                        "name": "CSS",
+                        "logo": "/css.webp"
+                    },
+                    {
+                        "name": "HTML",
+                        "logo": "/html.webp"
+                    }
                 ],
                 "pictures": [
                     "sophie/accueil.png",
@@ -232,9 +298,18 @@
                 "github": "https://github.com/sebastienDOC/P5-Print-It",
                 "link": "https://sebastiendoc.github.io/P5-Print-It/",
                 "skills": [
-                    "JavaSscript",
-                    "CSS",
-                    "HTML"
+                    {
+                        "name": "JavaScript",
+                        "logo": "/javascript.webp"
+                    },
+                    {
+                        "name": "CSS",
+                        "logo": "/css.webp"
+                    },
+                    {
+                        "name": "HTML",
+                        "logo": "/html.webp"
+                    }
                 ],
                 "pictures": [
                     "print/carousel.png",
@@ -263,8 +338,14 @@
                     "https://www.figma.com/file/t4449fzDnwGYmzuwQdu87V/Maquettes-Ohmyfood-(mobile-et-desktop)?type=design&node-id=0-1&mode=design"
                 ],
                 "skills": [
-                    "Sass",
-                    "HTML"
+                    {
+                        "name": "Sass",
+                        "logo": "/sass.webp"
+                    },
+                    {
+                        "name": "HTML",
+                        "logo": "/html.webp"
+                    }
                 ],
                 "pictures": [
                     "omf/accueil.png",
@@ -291,8 +372,14 @@
                 "link": "https://sebastiendoc.github.io/P3_Booki/",
                 "figma": "https://www.figma.com/file/r9YJyUkpVdrxzBBKGH7reY/Maquettes-Booki-(desktop%2C-mobile%2C-tablette)?type=design&node-id=3-0&mode=design",
                 "skills": [
-                    "CSS",
-                    "HTML"
+                    {
+                        "name": "CSS",
+                        "logo": "/css.webp"
+                    },
+                    {
+                        "name": "HTML",
+                        "logo": "/html.webp"
+                    }
                 ],
                 "pictures": [
                     "booki/accueil.png",

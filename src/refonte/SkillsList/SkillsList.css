@@ -1,0 +1,18 @@
+/* SkillsList.css */
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.skill-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.skill-logo {
+    width: 24px;
+    height: 24px;
+}

@@ -1,81 +1,80 @@
 [
     {
-        "principaux" : [
+        "front" : [
             {
-                "id": "1",
-                "cover": "/html.webp",
+                "logo": "/html.webp",
                 "alt": "Logo HTML",
-                "title": "HTML 5"
+                "name": "HTML 5"
             },
             {
-                "id": "2",
-                "cover": "/css.webp",
+                "logo": "/css.webp",
                 "alt": "Logo CSS",
-                "title": "CSS 3"
+                "name": "CSS 3"
             },
             {
-                "id": "3",
-                "cover": "/sass.webp",
-                "alt": "Logo SASS",
-                "title": "SASS"
-            },
-            {
-                "id": "4",
-                "cover": "/js.webp",
+                "logo": "/js.webp",
                 "alt": "Logo JavaScript",
-                "title": "JavaScript"
+                "name": "JavaScript"
             },
             {
-                "id": "5",
-                "cover": "/react.webp",
+                "logo": "/sass.webp",
+                "alt": "Logo SASS",
+                "name": "SASS"
+            },
+            {
+                "logo": "/react.webp",
                 "alt": "Logo React",
-                "title": "React"
+                "name": "React"
             },
             {
-                "id": "6",
-                "cover": "/redux.webp",
+                "logo": "/redux.webp",
                 "alt": "Logo Redux",
-                "title": "Redux"
+                "name": "Redux"
             },
+
             {
-                "id": "7",
-                "cover": "/node.webp",
-                "alt": "Logo NodeJS",
-                "title": "NodeJS"
-            },
-            {
-                "id": "8",
-                "cover": "/vscode.webp",
+                "logo": "/vscode.webp",
                 "alt": "Logo VS Ccode",
-                "title": "VS Code"
+                "name": "VS Code"
             }
         ]
     },
     {
-        "secondaires" : [
+        "back" : [
             {
-                "id": "9",
-                "cover": "/github.webp",
-                "alt": "Logo Github",
-                "title": "GitHub"
+                "logo": "/node.webp",
+                "alt": "Logo NodeJS",
+                "name": "NodeJS"
             },
             {
-                "id": "10",
-                "cover": "/swagger.webp",
+                "logo": "/mongo.png",
+                "alt": "Logo MongoDB",
+                "name": "MongoDB"
+            },
+            {
+                "logo": "/swagger.webp",
                 "alt": "Logo Swagger",
-                "title": "Swagger"
+                "name": "Swagger"
+            }
+
+        ]
+    },
+    {
+        "autre" : [
+            {
+                "logo": "/github.webp",
+                "alt": "Logo Github",
+                "name": "GitHub"
             },
             {
-                "id": "11",
-                "cover": "/notion.webp",
+                "logo": "/notion.webp",
                 "alt": "Logo Notion",
-                "title": "Notion"
+                "name": "Notion"
             },            
             {
-                "id": "12",
-                "cover": "/seo.webp",
+                "logo": "/seo.webp",
                 "alt": "Logo SEO",
-                "title": "SEO"
+                "name": "SEO"
             }
         ]
     }

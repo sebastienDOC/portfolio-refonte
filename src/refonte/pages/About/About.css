@@ -89,13 +89,5 @@
 .about-skills {
     display: flex;
     flex-direction: column;
-}
-.about-skills-list {
-    display: flex;
-    flex-direction: column;
-    padding: 5px;
-}
-.about-skills-list li{
-    margin: 0;
-    padding: 5px;
+    width: 12vw;
 }
