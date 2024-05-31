@@ -2,7 +2,7 @@ import React, { useRef, useEffect } from 'react';
 import './App.css';
 import { BrowserRouter } from 'react-router-dom';
 import fond from './assets/photo/fond2.mov';
-import Rooter from './refonte/Router';
+import Rooter from './components/Router';
 import { ElfsightWidget } from 'react-elfsight-widget';
 
 export default function App() {

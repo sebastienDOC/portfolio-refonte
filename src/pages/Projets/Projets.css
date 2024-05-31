@@ -1,0 +1,49 @@
+.projets-container {
+    position: absolute;
+    top: -100vh;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.projets-title {
+    color: #FAF5E9;
+    font-weight: 400;
+    font-size: 50px;
+    margin: 0 0 2vh;
+}
+.projets-top {
+    width: 30vw;
+    position: absolute;
+    top: 5vh;
+    left: 7.5vw;
+    color: #FAF5E9;
+}
+.projets-bottom {
+    width: 100vw;
+    height: 50vh;
+    position: relative;
+    bottom: 0;
+}
+.projets-left {
+    position: relative;
+    bottom: -25vh;
+    left: 12vw;
+    width: 40vw;
+    height: 50vh;
+}
+.projets-right {
+    width: 40vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    color: #FAF5E9;
+    position: absolute;
+    bottom: -25vh;
+    right: -2vw;
+    overflow-x: hidden;
+    overflow-y: auto;
+}

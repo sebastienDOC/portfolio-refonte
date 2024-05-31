@@ -144,15 +144,15 @@
                 "github": "https://github.com/sebastienDOC/77-Events",
                 "skills": [
                     {
+                        "name": "Debugger"
+                    },
+                    {
                         "name": "React",
                         "logo": "/react.webp"
                     },
                     {
                         "name": "Sass",
                         "logo": "/sass.webp"
-                    },
-                    {
-                        "name": "Debugger"
                     }
                 ],
                 "pictures": [
