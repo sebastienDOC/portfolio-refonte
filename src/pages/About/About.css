@@ -149,7 +149,7 @@
 	}
 	.about-link-1:hover,
 	.about-link-2:hover {
-		padding: 10px 40px;
+		padding: 10px 20px;
 	}
 }
 @media screen and (max-width: 800px) {
