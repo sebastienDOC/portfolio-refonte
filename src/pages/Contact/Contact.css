@@ -1,64 +1,95 @@
 .contact-ctn {
-    position: absolute;
-    top: -100vh;
-    left: 0;
-    height: 100vh;
-    width: 100vw;
+	position: absolute;
+	top: -110vh;
+	left: 0;
+	height: 100vh;
+	width: 100vw;
 }
-.contact-ctn h1.contact-title{
-    color: #FAF5E9;
-    font-size: 230px;
-    font-family: 'Noto Serif', sans-serif;
-    font-weight: 400;
-    width: 50vw;
-    position: relative;
-    top: 25vh;
-    left: 7.5vw;
+.contact-title {
+	color: #faf5e9;
+	font-size: 200px;
+	font-family: "Noto Serif", sans-serif;
+	font-weight: 400;
+	width: 50vw;
+	position: relative;
+	top: 25vh;
+	left: 7.5vw;
 }
-.contact-ctn h2.contact-sub {
-    color: #FAF5E9;
-    font-family: 'Noto Serif', sans-serif;
+.contact-sub {
+	color: #faf5e9;
+	font-family: "Noto Serif", sans-serif;
 }
 .contact-ctn h3,
 .contact-ctn h4 {
-    color: #FAF5E9;
-    font-family: 'Noto Serif', sans-serif;
+	color: #faf5e9;
+	font-family: "Noto Serif", sans-serif;
 }
-.about-title-ctn {
-    color: #FAF5E9;
-    width: 50vw;
-    position: relative;
-    top: 5vh;
-    left: 7.5vw;
+.contact-title-ctn {
+	color: #faf5e9;
+	width: 50vw;
+	position: relative;
+	top: 5vh;
+	left: 7.5vw;
 }
 .contact-txt {
-    color: #FAF5E9;
-    width: 30vw;
-    position: relative;
-    top: 30vh;
-    left: 7.5vw;
+	color: #faf5e9;
+	width: 50vw;
+	position: relative;
+	top: 30vh;
+	left: 7.5vw;
 }
 i {
-    margin-right: 0.5vw;
-    width: 16px;
-    text-align: center;
-}
-.contact-return {
-    position: fixed;
-    top: -98.5vh;
-    right: 2.5vw;
-    display: flex;
-    gap: 1vh;
-    color: #FAF5E9;
-    text-decoration: none;
-    font-style: italic;
-  }
-.contact-return:hover {
-    text-decoration: line-through;
+	margin-right: 0.5vw;
+	width: 16px;
+	text-align: center;
 }
 .contact-social {
-    font-style: italic;
+	font-style: italic;
 }
 .contact-social:hover {
-    text-decoration: line-through;
+	text-decoration: line-through;
+}
+
+/* Responsive */
+@media screen and (max-width: 1700px) {
+	.contact-title {
+		width: 90vw;
+	}
+}
+@media screen and (max-width: 1250px) {
+	.contact-title {
+		font-size: 200px;
+	}
+}
+@media screen and (max-width: 1000px) {
+	.contact-ctn {
+		left: 7.5vw;
+	}
+	.contact-title {
+		font-size: 150px;
+	}
+	.contact-txt {
+		width: 60vw;
+	}
+}
+@media screen and (max-width: 700px) {
+	.contact-ctn {
+		top: -110vh;
+		left: 0;
+	}
+	.contact-title {
+		width: 100%;
+		font-size: 100px;
+	}
+	.contact-txt {
+		width: 75vw;
+	}
+}
+@media screen and (max-width: 500px) {
+	.contact-ctn {
+		top: -115vh;
+	}
+	.contact-title {
+		font-size: 75px;
+	}
 }

@@ -1,55 +1,121 @@
 .mentions-container {
-    position: absolute;
-    top: -100vh;
-    left: 2vw;
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+	position: absolute;
+	top: -100vh;
+	left: 2vw;
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	gap: 2vh;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 .mentions-flex {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    gap: 2vw;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	width: 75vw;
+	height: 70vh;
+	overflow-y: auto;
+	padding-bottom: 2vh;
 }
-.mentions-col {
-    width: 30vw;
-    display: flex;
-    flex-direction: column;
-    gap: 1vh;
+/* For Chrome, Safari and Opera */
+.mentions-flex::-webkit-scrollbar {
+	width: 0px;
+	background: transparent; /* Optional: just to have a more transparent scrollbar */
 }
+
+/* For Firefox */
+.mentions-flex {
+	scrollbar-width: none; /* Firefox */
+}
+
+/* For Internet Explorer and Edge */
+.mentions-flex {
+	-ms-overflow-style: none; /* IE and Edge */
+}
+
 .mentions-container p,
 .mentions-container li {
-    color: #FAF5E9;
-    text-align: left;
-    font-size: 18px;
+	color: #faf5e9;
+	text-align: left;
 }
 .mentions-btn {
-    background: none;
-    border: none;
+	background: none;
+	border: none;
 }
 .mentions-btn:hover {
-    cursor: pointer;
+	cursor: pointer;
 }
 .mentions-title {
-    color: #FAF5E9;
-    text-align: center;
-    margin-bottom: 25px;
-    font-size: 125px;
+	color: #faf5e9;
+	text-align: center;
+	margin-bottom: 5vh;
+	font-size: 125px;
 }
 .mentions-subtitle {
-    font-weight: bold;
-    font-style: italic;
-    font-size: 30px;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 30px;
 }
 .mentions-list {
-    list-style-type:circle;
-    display: flex;
-    flex-direction: column;
+	list-style-type: circle;
+	display: flex;
+	flex-direction: column;
 }
 .mentions-list li {
-    margin: 0;
+	margin: 0;
+}
+
+/* Responsive */
+@media screen and (max-width: 1250px) {
+	.mentions-title {
+		font-size: 100px;
+	}
+	.mentions-subtitle {
+		font-size: 25px;
+	}
+}
+@media screen and (max-width: 1000px) {
+	.mentions-title {
+		font-size: 75px;
+	}
+	.mentions-subtitle {
+		font-size: 20px;
+	}
+}
+@media screen and (max-width: 800px) {
+	.mentions-title {
+		font-size: 65px;
+		margin-bottom: 5vh;
+	}
+	.mentions-container {
+		left: 0;
+	}
+	.mentions-col {
+		width: 35vw;
+	}
+}
+@media screen and (max-width: 700px) {
+	.mentions-title {
+		font-size: 55px;
+	}
+	.mentions-col {
+		width: 40vw;
+	}
+}
+@media screen and (max-width: 500px) {
+	.mentions-title {
+		font-size: 50px;
+		margin-bottom: 2vh;
+	}
+	.mentions-flex {
+		width: 90vw;
+	}
+	.mentions-col {
+		width: 90vw;
+		height: 40vh;
+		overflow: auto;
+		overflow-x: hidden;
+	}
 }

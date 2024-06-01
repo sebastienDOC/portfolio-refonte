@@ -1,395 +1,387 @@
 [
-    {
-        "formation": [
-            {
-                "id": "sarl_anamarcol",
-                "title": "SARL Anamarcol",
-                "subtitle": "Réalisation d'un site de gestion de stock",
-                "cover": "https://i.ibb.co/ckyjkcg/login-4bd95cfa9d437143a70d.jpg",
-                "alt": "Des entrepôt vu de l'extérieur pendant un couché de soleil",
-                "banner": "/banner/Anamarcol.png",
-                "altBanner": "Logo d'Anamarcol",
-                "role": "Développeur Web",
-                "client": "Anamarcol est une entreprise d'agencement de systèmes d'encaissements sécurisés.",
-                "description": "Bruno m'a contacté car il voulait mettre en place un site pour la gestion du stock de son dépôt accessible sur ordinateur, tablette et téléphone. Il voulait pouvoir ajouter/supprimer un article et voir les stats du stock par fournisseur et par état, les articles dont le stock était inférieur à 3 unités et pouvoir changer la quantité de chaque article. Tout ceci grâce à une base de donnée. J'ai utilisé une base MongoDB avec Node.JS/Express.js pour le back-end et React/Redux pour le front-end. ",
-                "github": "https://github.com/sebastienDOC/AnaMarCol",
-                "link": "https://stock.anamarcol.com/",
-                "skills": [
-                    {
-                        "name": "React",
-                        "logo": "/react.webp"
-                    },
-                    {
-                        "name": "Redux",
-                        "logo": "/redux.webp"
-                    },
-                    {
-                        "name": "CSS",
-                        "logo": "/css.webp"
-                    },
-                    {
-                        "name": "SEO",
-                        "logo": "/seo.webp"
-                    },
-                    {
-                        "name": "Node.js",
-                        "logo": "/node.webp"
-                    }
-                ],
-                "pictures": [
-                    "anamarcol/accueil.png",
-                    "anamarcol/articles.png",
-                    "anamarcol/profil.png",
-                    "anamarcol/membres.png",
-                    "anamarcol/contact.png"
-                ],
-                "video": "anamarcol/review.mp4",
-                "finished" : true,
-                "type": "Professionnel"
-            },
-            {
-                "id": "alliance_equine",
-                "title": "Alliance Équine",
-                "subtitle": "Réalisation d'un site vitrine",
-                "cover": "https://i.ibb.co/R07SXw7/vignes-15c5e2587398060546b9.webp",
-                "alt": "Lucie souriante aux côtés de deux chevaux",
-                "banner": "/banner/alliance",
-                "altBanner": "Logo d'Alliance Équine",
-                "role": "Développeur Web",
-                "client": "Lucie souhaitait développer son activité avec un site web expliquant en détails celle-ci.",
-                "description": "Lucie souhaitait un site vitrine classique, elle m'a expliqué vouloir un site responsive optimisé au niveau de l'accessibilité, des performances et du green-code. Aujourd'hui ce projet n'est plus d'actualité mais Lucie m'a permis de laisser son site pour pouvoir montrer mes compétences.",
-                "github": "https://github.com/sebastienDOC/AllianceEquine",
-                "link": "https://alliance-equine.vercel.app/",
-                "skills": [
-                    {
-                        "name": "React",
-                        "logo": "/react.webp"
-                    },
-                    {
-                        "name": "CSS",
-                        "logo": "/css.webp"
-                    },
-                    {
-                        "name": "SEO",
-                        "logo": "/seo.webp"
-                    }
-                ],
-                "pictures": [
-                    "alliance/accueil.png",
-                    "alliance/equi_1.png",
-                    "alliance/equi_2.png",
-                    "alliance/partenaires.png",
-                    "alliance/carousel.png",
-                    "alliance/gallerie.png",
-                    "alliance/apercu.png",
-                    "alliance/tarifs.png",
-                    "alliance/contact.png"
-                ],
-                "video": "alliance/review.mp4",
-                "finished" : true,
-                "type": "Professionnel"
-            },
-            {
-                "id": "argentbank",
-                "title": "ArgentBank",
-                "subtitle": "Implémentez le front-end d'une application bancaire avec React",
-                "cover": "https://i.ibb.co/9Tgcg8w/argent-bank.jpg",
-                "alt": "Un pot de fleur posé sur une table",
-                "banner": "/banner/argent",
-                "altBanner": "Logo d'ArgentBank sur un fond vert",
-                "role": "Développeur Web",
-                "client": "ArgentBank est une banque en ligne qui souhaite évoluer dans le secteur bancaire.",
-                "description": "La mission se déroule en deux phases. Phase 1 : sur la base du site statique, je dois développer grâce à Redux, le système d'authentification des utilisateurs du site. Phase 2 : je dois mettre au point le descriptif des routes API qui permettent à l'utilisateur de visualiser les transactions sur ses comptes bancaire grâce à l'outil Swagger Editor.",
-                "github": "https://github.com/sebastienDOC/ArgentBank",
-                "skills": [
-                    {
-                        "name": "React",
-                        "logo": "/react.webp"
-                    },
-                    {
-                        "name": "Redux",
-                        "logo": "/redux.webp"
-                    },
-                    {
-                        "name": "CSS",
-                        "logo": "/css.webp"
-                    },
-                    {
-                        "name": "Swagger",
-                        "logo": "/swagger.webp"
-                    }
-                ],
-                "pictures": [
-                    "argentbank/accueil.png",
-                    "argentbank/login.png",
-                    "argentbank/account_1.png",
-                    "argentbank/name.png",
-                    "argentbank/account_2.png"
-                ],
-                "video": "argentbank/review.mp4",
-                "finished" : true,
-                "type": "Formation"
-            },
-            {
-                "id": "77events",
-                "title": "77 Events",
-                "subtitle": "Débuggez le site d'une agence d'événementiel",
-                "cover": "https://i.ibb.co/f1JJDfz/77-events.png",
-                "alt": "Photo prise lors d'un évènement organisé par l'entreprise 77 Events",
-                "banner": "/banner/77-event",
-                "altBanner": "Logo de 77 Events",
-                "role": "Développeur Web",
-                "client": "77 Events est une entreprise d'évenementiel qui souhaite faire corriger les bugs de son site web.",
-                "description": "L’agence souhaite publier la nouvelle version de son site vitrine. Il s’agit d’un site one-page. Le design a été validé, et un premier développeur freelance a commencé l’intégration il y a quelques semaines. Malheureusement, ce freelance a dû abandonner le projet pour raisons personnelles. Le site est fonctionnel, mais quelques bugs entravent le bon usage par les visiteurs. 77 Events fait donc appel à vous pour finaliser le travail.",
-                "github": "https://github.com/sebastienDOC/77-Events",
-                "skills": [
-                    {
-                        "name": "Debugger"
-                    },
-                    {
-                        "name": "React",
-                        "logo": "/react.webp"
-                    },
-                    {
-                        "name": "Sass",
-                        "logo": "/sass.webp"
-                    }
-                ],
-                "pictures": [
-                    "77events/carousel.png",
-                    "77events/services.png",
-                    "77events/work.png",
-                    "77events/staff.png",
-                    "77events/contact.png"
-                ],
-                "video": "77events/review.mp4",
-                "finished" : true,
-                "type": "Formation"
-            },
-            {
-                "id": "nina_carducci",
-                "title": "Nina Carducci",
-                "subtitle": "Optimisez le référencement d'un site de photographe",
-                "cover": "https://i.ibb.co/NVzZxFb/nina.png",
-                "alt": "Photo portrait de Nina Carducci",
-                "banner": "/banner/nina",
-                "altBanner": "Une photo d'un homme traversant sur un passage piéton",
-                "role": "Développeur Web",
-                "client": "Nina Carducci est une photographe que j'ai démarché pour réaliser une optimisation d'accessiblité et de performances sur son site web.",
-                "description": "Faire une optimisation globale du site tant sur les performances que sur le SEO. Mettre en place le référencement local en utilisant Schema.org. Ajouter les metas pour les réseaux sociaux. Faire les modifications liées à l’accessibilité du site. Produire un rapport d’optimisation présentant toutes vos actions et leur impact.",
-                "github": "https://github.com/sebastienDOC/NinaCarducci",
-                "link": "https://sebastiendoc.github.io/NinaCarducci/",
-                "figma": "https://course.oc-static.com/projects/D%C3%A9veloppeur+Web/IW_P9+Optimisation/audit_nina_carducci.pdf",
-                "skills": [
-                    {
-                        "name": "React",
-                        "logo": "/react.webp"
-                    },
-                    {
-                        "name": "CSS",
-                        "logo": "/css.webp"
-                    },
-                    {
-                        "name": "SEO",
-                        "logo": "/seo.webp"
-                    }
-                ],
-                "pictures": [
-                    "nina/carousel.png",
-                    "nina/about.png",
-                    "nina/gallerie.png",
-                    "nina/apercu.png",
-                    "nina/services.png",
-                    "nina/contact.png"
-                ],
-                "video": "nina/review.mp4",
-                "finished" : true,
-                "type": "Formation"
-            },
-            {
-                "id": "kasa",
-                "title": "Kasa",
-                "subtitle": "Créez une application web de location immobilière avec React",
-                "cover": "https://i.ibb.co/rdrdZ5Y/accommodation-4-1.jpgp",
-                "alt": "Photo d'un salon tiré d'une annonce immobilière du site Kasa",
-                "banner": "/banner/kasa",
-                "altBanner": "Logo de Kasa",
-                "role": "Développeur Web Front-end",
-                "client": "Kasa est une startup spécialisée dans la location d'appartements entre particuliers.",
-                "description": "Le site de Kasa a été codé il y a maintenant plus de 10 ans en ASP.NET avec un code legacy important. Laura, la CTO, a donc lancé une refonte totale pour passer à une stack complète en JavaScript avec NodeJS côté back-end, et React côté front-end. Kasa en a également profité pour commander de nouvelles maquettes auprès de son designer habituel, qui est en freelance.",
-                "github": "https://github.com/sebastienDOC/kasa",
-                "link": "https://sebastiendoc.github.io/kasa/",
-                "figma": "https://www.figma.com/file/qEno0LwL4ZLkWyeY59kxp1/UI-Design-Kasa-FR?type=design&node-id=0-1&mode=design",
-                "skills": [
-                    {
-                        "name": "React",
-                        "logo": "/react.webp"
-                    },
-                    {
-                        "name": "CSS",
-                        "logo": "/css.webp"
-                    }
-                ],
-                "pictures": [
-                    "kasa/accueil_1.png",
-                    "kasa/accueil_2.png",
-                    "kasa/logement_1.png",
-                    "kasa/logement_2.png",
-                    "kasa/logement_3.png",
-                    "kasa/logement_4.png",
-                    "kasa/about_1.png",
-                    "kasa/about_2.png"
-                ],
-                "video": "kasa/review.mp4",
-                "finished" : true,
-                "type": "Formation"
-            },
-            {
-                "id": "sophie_bluel",
-                "title": "Sophie Bluel",
-                "subtitle": "Créez une page web dynamique avec JavaScript",
-                "cover": "https://i.ibb.co/0FsLnLX/sophie-bluel.png",
-                "alt": "Photo portrait de Sophie Bluel",
-                "banner": "/banner/sophieBluel",
-                "altBanner": "Photo portrait de Sophie Bluel avec son logo",
-                "role": "Développeur Web Front-end",
-                "client": "Agence ArchiWebos, Sophie Bluel souhaite dynamiser son site web.",
-                "description": "Vous êtes envoyé en renfort comme développeur front-end d’une équipe qui travaille sur la conception du site portfolio d’une architecte d’intérieur. Vous devez donc développer : la page de présentation des travaux de l'architecte (à partir du HTML fourni), la page de connexion de l'administrateur du site (le client) (code à créer de zéro), la modale permettant d'uploader de nouveaux médias (code à créer from scratch).",
-                "github": "https://github.com/sebastienDOC/P6-SophieBluel",
-                "figma": "https://www.figma.com/file/kfKHknHySoTibZfdolGAX6/Sophie-Bluel---Desktop?type=design&node-id=0-1&mode=design",
-                "skills": [
-                    {
-                        "name": "JavaScript",
-                        "logo": "/javascript.webp"
-                    },
-                    {
-                        "name": "CSS",
-                        "logo": "/css.webp"
-                    },
-                    {
-                        "name": "HTML",
-                        "logo": "/html.webp"
-                    }
-                ],
-                "pictures": [
-                    "sophie/accueil.png",
-                    "sophie/contact.png",
-                    "sophie/login.png",
-                    "sophie/edition_1.png",
-                    "sophie/edition_2.png",
-                    "sophie/edition_3.png",
-                    "sophie/edition_4.png"
-                ],
-                "video": "sophie/review.mp4",
-                "finished" : true,
-                "type": "Formation"
-            },
-            {
-                "id": "print_it",
-                "title": "Print it",
-                "subtitle": "Premiers pas sur le langage JavaScript",
-                "cover": "https://i.ibb.co/XtXFP1p/print-it.jpg",
-                "alt": "Échantillons de couleur",
-                "banner": "/banner/print.png",
-                "altBanner": "Logo Print It",
-                "role": "Développeur Web Front-end",
-                "client": "Print It est une entreprise d'impression qui souhaitait renvoyer une meilleure image en dynamisant son site web.",
-                "description": "Vous débutez comme développeur front-end en freelance, et venez de décrocher une offre pour dynamiser le site Internet statique d’une petite imprimerie familiale nommée Print it. La mission est de réaliser un carousel infini au niveau de la bannière du site.",
-                "github": "https://github.com/sebastienDOC/P5-Print-It",
-                "link": "https://sebastiendoc.github.io/P5-Print-It/",
-                "skills": [
-                    {
-                        "name": "JavaScript",
-                        "logo": "/javascript.webp"
-                    },
-                    {
-                        "name": "CSS",
-                        "logo": "/css.webp"
-                    },
-                    {
-                        "name": "HTML",
-                        "logo": "/html.webp"
-                    }
-                ],
-                "pictures": [
-                    "print/carousel.png",
-                    "print/devis.png",
-                    "print/contact.png"
-                ],
-                "video": "print/review.mp4",
-                "finished" : true,
-                "type": "Formation"
-            },
-            {
-                "id": "ohmyfood",
-                "title": "OhMyFood",
-                "subtitle": "Améliorez l'interface d'un site mobile avec des animations CSS",
-                "cover": "https://i.ibb.co/JKKt4pd/ohmyfood.jpg",
-                "alt": "Photo d'une cliente d'un restaurant dégustant son plat",
-                "banner": "/banner/ohmyfood",
-                "altBanner": "Logo d'OhMyFood",
-                "role": "Développeur Web Front-end",
-                "client": "OhMyFood est une startup de restauration souhaitant démarrer son activité en se démarquant de ses concurrents.",
-                "description": "Développer un site “mobile first” qui répertorie les menus de restaurants gastronomiques. Finis, les temps d'attente au restaurant ! L’équipe commerciale a déjà réussi à convaincre 4 restaurateurs d’utiliser la plateforme OhMyFood. Paul décide alors que le site contiendra 4 menus dans un premier temps.",
-                "github": "https://github.com/sebastienDOC/P4-OhMyFood",
-                "link": "https://sebastiendoc.github.io/P4-OhMyFood/",
-                "figma": [
-                    "https://www.figma.com/proto/t4449fzDnwGYmzuwQdu87V/Maquettes-Ohmyfood-(mobile-et-desktop)?node-id=25368-654&scaling=scale-down&page-id=0%3A1&starting-point-node-id=25368%3A654&show-proto-sidebar=1",
-                    "https://www.figma.com/file/t4449fzDnwGYmzuwQdu87V/Maquettes-Ohmyfood-(mobile-et-desktop)?type=design&node-id=0-1&mode=design"
-                ],
-                "skills": [
-                    {
-                        "name": "Sass",
-                        "logo": "/sass.webp"
-                    },
-                    {
-                        "name": "HTML",
-                        "logo": "/html.webp"
-                    }
-                ],
-                "pictures": [
-                    "omf/accueil.png",
-                    "omf/restaurants.png",
-                    "omf/palette_1.png",
-                    "omf/palette_2.png"
-                ],
-                "video": "omf/review.mp4",
-                "finished" : true,
-                "type": "Formation"
-            },
-            {
-                "id": "booki",
-                "title": "Booki",
-                "subtitle": "Créez la page d'accueil d'une agence de voyage avec HTML & CSS",
-                "cover": "https://i.ibb.co/w0MrFyg/booki.jpg",
-                "alt": "Photo d'une chambre proposé par le site Booki",
-                "banner": "/banner/booki",
-                "altBanner": "Logo de Booki",
-                "role": "Développeur Web Front-end",
-                "client": "Booki est une entreprise souhaitant développer un site web pour la recherche d'hébergements et d'activités.",
-                "description": "L’entreprise souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix. Vous êtes chargé d'intégrer l'interface du site avec du code HTML et CSS. Pour cela, vous travaillez en étroite collaboration avec Sarah, la CTO, et Loïc, l’UI designer. Sarah vous envoie un e-mail pour vous présenter l’avancée du projet.",
-                "github": "https://github.com/sebastienDOC/P3_Booki",
-                "link": "https://sebastiendoc.github.io/P3_Booki/",
-                "figma": "https://www.figma.com/file/r9YJyUkpVdrxzBBKGH7reY/Maquettes-Booki-(desktop%2C-mobile%2C-tablette)?type=design&node-id=3-0&mode=design",
-                "skills": [
-                    {
-                        "name": "CSS",
-                        "logo": "/css.webp"
-                    },
-                    {
-                        "name": "HTML",
-                        "logo": "/html.webp"
-                    }
-                ],
-                "pictures": [
-                    "booki/accueil.png",
-                    "booki/activites.png"
-                ],
-                "video": "booki/review.mp4",
-                "finished" : true,
-                "type": "Formation"
-            }
-        ]       
-    }
+	{
+		"formation": [
+			{
+				"id": "sarl_anamarcol",
+				"title": "SARL Anamarcol",
+				"subtitle": "Réalisation d'un site de gestion de stock",
+				"cover": "https://i.ibb.co/ckyjkcg/login-4bd95cfa9d437143a70d.jpg",
+				"alt": "Des entrepôt vu de l'extérieur pendant un couché de soleil",
+				"banner": "/banner/Anamarcol.png",
+				"altBanner": "Logo d'Anamarcol",
+				"role": "Développeur Web",
+				"client": "Anamarcol est une entreprise d'agencement de systèmes d'encaissements sécurisés.",
+				"description": "Bruno m'a contacté car il voulait mettre en place un site pour la gestion du stock de son dépôt accessible sur ordinateur, tablette et téléphone. Il voulait pouvoir ajouter/supprimer un article et voir les stats du stock par fournisseur et par état, les articles dont le stock était inférieur à 3 unités et pouvoir changer la quantité de chaque article. Tout ceci grâce à une base de donnée. J'ai utilisé une base MongoDB avec Node.JS/Express.js pour le back-end et React/Redux pour le front-end. ",
+				"github": "https://github.com/sebastienDOC/AnaMarCol",
+				"link": "https://stock.anamarcol.com/",
+				"skills": [
+					{
+						"name": "React",
+						"logo": "/react.webp"
+					},
+					{
+						"name": "Redux",
+						"logo": "/redux.webp"
+					},
+					{
+						"name": "CSS",
+						"logo": "/css.webp"
+					},
+					{
+						"name": "SEO",
+						"logo": "/seo.webp"
+					},
+					{
+						"name": "Node.js",
+						"logo": "/node.webp"
+					}
+				],
+				"pictures": [
+					"anamarcol/accueil.png",
+					"anamarcol/articles.png",
+					"anamarcol/profil.png",
+					"anamarcol/membres.png",
+					"anamarcol/contact.png"
+				],
+				"video": "anamarcol/review.mp4",
+				"finished": true,
+				"type": "Professionnel"
+			},
+			{
+				"id": "alliance_equine",
+				"title": "Alliance Équine",
+				"subtitle": "Réalisation d'un site vitrine",
+				"cover": "https://i.ibb.co/R07SXw7/vignes-15c5e2587398060546b9.webp",
+				"alt": "Lucie souriante aux côtés de deux chevaux",
+				"banner": "/banner/alliance",
+				"altBanner": "Logo d'Alliance Équine",
+				"role": "Développeur Web",
+				"client": "Lucie souhaitait développer son activité avec un site web expliquant en détails celle-ci.",
+				"description": "Lucie souhaitait un site vitrine classique, elle m'a expliqué vouloir un site responsive optimisé au niveau de l'accessibilité, des performances et du green-code. Aujourd'hui ce projet n'est plus d'actualité mais Lucie m'a permis de laisser son site pour pouvoir montrer mes compétences.",
+				"github": "https://github.com/sebastienDOC/AllianceEquine",
+				"link": "https://alliance-equine.vercel.app/",
+				"skills": [
+					{
+						"name": "React",
+						"logo": "/react.webp"
+					},
+					{
+						"name": "CSS",
+						"logo": "/css.webp"
+					},
+					{
+						"name": "SEO",
+						"logo": "/seo.webp"
+					}
+				],
+				"pictures": [
+					"alliance/accueil.png",
+					"alliance/equi_1.png",
+					"alliance/equi_2.png",
+					"alliance/partenaires.png",
+					"alliance/carousel.png",
+					"alliance/gallerie.png",
+					"alliance/apercu.png",
+					"alliance/tarifs.png",
+					"alliance/contact.png"
+				],
+				"video": "alliance/review.mp4",
+				"finished": true,
+				"type": "Professionnel"
+			},
+			{
+				"id": "argentbank",
+				"title": "ArgentBank",
+				"subtitle": "Implémentez le front-end d'une application",
+				"cover": "https://i.ibb.co/9Tgcg8w/argent-bank.jpg",
+				"alt": "Un pot de fleur posé sur une table",
+				"banner": "/banner/argent",
+				"altBanner": "Logo d'ArgentBank sur un fond vert",
+				"role": "Développeur Web",
+				"client": "ArgentBank est une banque en ligne qui souhaite évoluer dans le secteur bancaire.",
+				"description": "La mission se déroule en deux phases. Phase 1 : sur la base du site statique, je dois développer grâce à Redux, le système d'authentification des utilisateurs du site. Phase 2 : je dois mettre au point le descriptif des routes API qui permettent à l'utilisateur de visualiser les transactions sur ses comptes bancaire grâce à l'outil Swagger Editor.",
+				"github": "https://github.com/sebastienDOC/ArgentBank",
+				"skills": [
+					{
+						"name": "React",
+						"logo": "/react.webp"
+					},
+					{
+						"name": "Redux",
+						"logo": "/redux.webp"
+					},
+					{
+						"name": "CSS",
+						"logo": "/css.webp"
+					},
+					{
+						"name": "Swagger",
+						"logo": "/swagger.webp"
+					}
+				],
+				"pictures": [
+					"argentbank/accueil.png",
+					"argentbank/login.png",
+					"argentbank/account_1.png",
+					"argentbank/name.png",
+					"argentbank/account_2.png"
+				],
+				"video": "argentbank/review.mp4",
+				"finished": true,
+				"type": "Formation"
+			},
+			{
+				"id": "77events",
+				"title": "77 Events",
+				"subtitle": "Débuggez le site",
+				"cover": "https://i.ibb.co/f1JJDfz/77-events.png",
+				"alt": "Photo prise lors d'un évènement organisé par l'entreprise 77 Events",
+				"banner": "/banner/77-event",
+				"altBanner": "Logo de 77 Events",
+				"role": "Développeur Web",
+				"client": "77 Events est une entreprise d'évenementiel qui souhaite faire corriger les bugs de son site web.",
+				"description": "L’agence souhaite publier la nouvelle version de son site vitrine. Il s’agit d’un site one-page. Le design a été validé, et un premier développeur freelance a commencé l’intégration il y a quelques semaines. Malheureusement, ce freelance a dû abandonner le projet pour raisons personnelles. Le site est fonctionnel, mais quelques bugs entravent le bon usage par les visiteurs. 77 Events fait donc appel à vous pour finaliser le travail.",
+				"github": "https://github.com/sebastienDOC/77-Events",
+				"skills": [
+					{
+						"name": "Debugger"
+					},
+					{
+						"name": "React",
+						"logo": "/react.webp"
+					},
+					{
+						"name": "Sass",
+						"logo": "/sass.webp"
+					}
+				],
+				"pictures": [
+					"77events/carousel.png",
+					"77events/services.png",
+					"77events/work.png",
+					"77events/staff.png",
+					"77events/contact.png"
+				],
+				"video": "77events/review.mp4",
+				"finished": true,
+				"type": "Formation"
+			},
+			{
+				"id": "nina_carducci",
+				"title": "Nina Carducci",
+				"subtitle": "Optimisez le référencement du site",
+				"cover": "https://i.ibb.co/NVzZxFb/nina.png",
+				"alt": "Photo portrait de Nina Carducci",
+				"banner": "/banner/nina",
+				"altBanner": "Une photo d'un homme traversant sur un passage piéton",
+				"role": "Développeur Web",
+				"client": "Nina Carducci est une photographe que j'ai démarché pour réaliser une optimisation d'accessiblité et de performances sur son site web.",
+				"description": "Faire une optimisation globale du site tant sur les performances que sur le SEO. Mettre en place le référencement local en utilisant Schema.org. Ajouter les metas pour les réseaux sociaux. Faire les modifications liées à l’accessibilité du site. Produire un rapport d’optimisation présentant toutes vos actions et leur impact.",
+				"github": "https://github.com/sebastienDOC/NinaCarducci",
+				"link": "https://sebastiendoc.github.io/NinaCarducci/",
+				"figma": "https://course.oc-static.com/projects/D%C3%A9veloppeur+Web/IW_P9+Optimisation/audit_nina_carducci.pdf",
+				"skills": [
+					{
+						"name": "React",
+						"logo": "/react.webp"
+					},
+					{
+						"name": "CSS",
+						"logo": "/css.webp"
+					},
+					{
+						"name": "SEO",
+						"logo": "/seo.webp"
+					}
+				],
+				"pictures": [
+					"nina/carousel.png",
+					"nina/about.png",
+					"nina/gallerie.png",
+					"nina/apercu.png",
+					"nina/services.png",
+					"nina/contact.png"
+				],
+				"video": "nina/review.mp4",
+				"finished": true,
+				"type": "Formation"
+			},
+			{
+				"id": "kasa",
+				"title": "Kasa",
+				"subtitle": "Créez une application web",
+				"cover": "https://i.ibb.co/rdrdZ5Y/accommodation-4-1.jpgp",
+				"alt": "Photo d'un salon tiré d'une annonce immobilière du site Kasa",
+				"banner": "/banner/kasa",
+				"altBanner": "Logo de Kasa",
+				"role": "Développeur Web Front-end",
+				"client": "Kasa est une startup spécialisée dans la location d'appartements entre particuliers.",
+				"description": "Le site de Kasa a été codé il y a maintenant plus de 10 ans en ASP.NET avec un code legacy important. Laura, la CTO, a donc lancé une refonte totale pour passer à une stack complète en JavaScript avec NodeJS côté back-end, et React côté front-end. Kasa en a également profité pour commander de nouvelles maquettes auprès de son designer habituel, qui est en freelance.",
+				"github": "https://github.com/sebastienDOC/kasa",
+				"link": "https://sebastiendoc.github.io/kasa/",
+				"figma": "https://www.figma.com/file/qEno0LwL4ZLkWyeY59kxp1/UI-Design-Kasa-FR?type=design&node-id=0-1&mode=design",
+				"skills": [
+					{
+						"name": "React",
+						"logo": "/react.webp"
+					},
+					{
+						"name": "CSS",
+						"logo": "/css.webp"
+					}
+				],
+				"pictures": [
+					"kasa/accueil_1.png",
+					"kasa/accueil_2.png",
+					"kasa/logement_1.png",
+					"kasa/logement_2.png",
+					"kasa/logement_3.png",
+					"kasa/logement_4.png",
+					"kasa/about_1.png",
+					"kasa/about_2.png"
+				],
+				"video": "kasa/review.mp4",
+				"finished": true,
+				"type": "Formation"
+			},
+			{
+				"id": "sophie_bluel",
+				"title": "Sophie Bluel",
+				"subtitle": "Créez une page web dynamique",
+				"cover": "https://i.ibb.co/0FsLnLX/sophie-bluel.png",
+				"alt": "Photo portrait de Sophie Bluel",
+				"banner": "/banner/sophieBluel",
+				"altBanner": "Photo portrait de Sophie Bluel avec son logo",
+				"role": "Développeur Web Front-end",
+				"client": "Agence ArchiWebos, Sophie Bluel souhaite dynamiser son site web.",
+				"description": "Vous êtes envoyé en renfort comme développeur front-end d’une équipe qui travaille sur la conception du site portfolio d’une architecte d’intérieur. Vous devez donc développer : la page de présentation des travaux de l'architecte (à partir du HTML fourni), la page de connexion de l'administrateur du site (le client) (code à créer de zéro), la modale permettant d'uploader de nouveaux médias (code à créer from scratch).",
+				"github": "https://github.com/sebastienDOC/P6-SophieBluel",
+				"figma": "https://www.figma.com/file/kfKHknHySoTibZfdolGAX6/Sophie-Bluel---Desktop?type=design&node-id=0-1&mode=design",
+				"skills": [
+					{
+						"name": "JavaScript",
+						"logo": "/javascript.webp"
+					},
+					{
+						"name": "CSS",
+						"logo": "/css.webp"
+					},
+					{
+						"name": "HTML",
+						"logo": "/html.webp"
+					}
+				],
+				"pictures": [
+					"sophie/accueil.png",
+					"sophie/contact.png",
+					"sophie/login.png",
+					"sophie/edition_1.png",
+					"sophie/edition_2.png",
+					"sophie/edition_3.png",
+					"sophie/edition_4.png"
+				],
+				"video": "sophie/review.mp4",
+				"finished": true,
+				"type": "Formation"
+			},
+			{
+				"id": "print_it",
+				"title": "Print it",
+				"subtitle": "Premiers pas sur le langage JavaScript",
+				"cover": "https://i.ibb.co/XtXFP1p/print-it.jpg",
+				"alt": "Échantillons de couleur",
+				"banner": "/banner/print.png",
+				"altBanner": "Logo Print It",
+				"role": "Développeur Web Front-end",
+				"client": "Print It est une entreprise d'impression qui souhaitait renvoyer une meilleure image en dynamisant son site web.",
+				"description": "Vous débutez comme développeur front-end en freelance, et venez de décrocher une offre pour dynamiser le site Internet statique d’une petite imprimerie familiale nommée Print it. La mission est de réaliser un carousel infini au niveau de la bannière du site.",
+				"github": "https://github.com/sebastienDOC/P5-Print-It",
+				"link": "https://sebastiendoc.github.io/P5-Print-It/",
+				"skills": [
+					{
+						"name": "JavaScript",
+						"logo": "/javascript.webp"
+					},
+					{
+						"name": "CSS",
+						"logo": "/css.webp"
+					},
+					{
+						"name": "HTML",
+						"logo": "/html.webp"
+					}
+				],
+				"pictures": ["print/carousel.png", "print/devis.png", "print/contact.png"],
+				"video": "print/review.mp4",
+				"finished": true,
+				"type": "Formation"
+			},
+			{
+				"id": "ohmyfood",
+				"title": "OhMyFood",
+				"subtitle": "Améliorez l'interface du site",
+				"cover": "https://i.ibb.co/JKKt4pd/ohmyfood.jpg",
+				"alt": "Photo d'une cliente d'un restaurant dégustant son plat",
+				"banner": "/banner/ohmyfood",
+				"altBanner": "Logo d'OhMyFood",
+				"role": "Développeur Web Front-end",
+				"client": "OhMyFood est une startup de restauration souhaitant démarrer son activité en se démarquant de ses concurrents.",
+				"description": "Développer un site “mobile first” qui répertorie les menus de restaurants gastronomiques. Finis, les temps d'attente au restaurant ! L’équipe commerciale a déjà réussi à convaincre 4 restaurateurs d’utiliser la plateforme OhMyFood. Paul décide alors que le site contiendra 4 menus dans un premier temps.",
+				"github": "https://github.com/sebastienDOC/P4-OhMyFood",
+				"link": "https://sebastiendoc.github.io/P4-OhMyFood/",
+				"figma": [
+					"https://www.figma.com/proto/t4449fzDnwGYmzuwQdu87V/Maquettes-Ohmyfood-(mobile-et-desktop)?node-id=25368-654&scaling=scale-down&page-id=0%3A1&starting-point-node-id=25368%3A654&show-proto-sidebar=1",
+					"https://www.figma.com/file/t4449fzDnwGYmzuwQdu87V/Maquettes-Ohmyfood-(mobile-et-desktop)?type=design&node-id=0-1&mode=design"
+				],
+				"skills": [
+					{
+						"name": "Sass",
+						"logo": "/sass.webp"
+					},
+					{
+						"name": "HTML",
+						"logo": "/html.webp"
+					}
+				],
+				"pictures": [
+					"omf/accueil.png",
+					"omf/restaurants.png",
+					"omf/palette_1.png",
+					"omf/palette_2.png"
+				],
+				"video": "omf/review.mp4",
+				"finished": true,
+				"type": "Formation"
+			},
+			{
+				"id": "booki",
+				"title": "Booki",
+				"subtitle": "Créez la page d'accueil du site",
+				"cover": "https://i.ibb.co/w0MrFyg/booki.jpg",
+				"alt": "Photo d'une chambre proposé par le site Booki",
+				"banner": "/banner/booki",
+				"altBanner": "Logo de Booki",
+				"role": "Développeur Web Front-end",
+				"client": "Booki est une entreprise souhaitant développer un site web pour la recherche d'hébergements et d'activités.",
+				"description": "L’entreprise souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix. Vous êtes chargé d'intégrer l'interface du site avec du code HTML et CSS. Pour cela, vous travaillez en étroite collaboration avec Sarah, la CTO, et Loïc, l’UI designer. Sarah vous envoie un e-mail pour vous présenter l’avancée du projet.",
+				"github": "https://github.com/sebastienDOC/P3_Booki",
+				"link": "https://sebastiendoc.github.io/P3_Booki/",
+				"figma": "https://www.figma.com/file/r9YJyUkpVdrxzBBKGH7reY/Maquettes-Booki-(desktop%2C-mobile%2C-tablette)?type=design&node-id=3-0&mode=design",
+				"skills": [
+					{
+						"name": "CSS",
+						"logo": "/css.webp"
+					},
+					{
+						"name": "HTML",
+						"logo": "/html.webp"
+					}
+				],
+				"pictures": ["booki/accueil.png", "booki/activites.png"],
+				"video": "booki/review.mp4",
+				"finished": true,
+				"type": "Formation"
+			}
+		]
+	}
 ]
-

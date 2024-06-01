@@ -1,38 +1,97 @@
 .projets-list-ctn {
-    margin: 0 0 2vh;
-  }
-  
-  .projets-list-ctn h3 {
-    margin: 0;
-    font-size: 80px;
-    display: inline-flex;
-    align-items: center;
-    transform: translateX(-25px);
-    transition: transform 0.3s ease;
-    font-weight: 400;
-  }
-  
-  .projets-list-title:hover {
-    transform: translateX(20px);
-    font-style: italic;
-  }
-  
-  .arrow {
-    opacity: 0;
-    transform: translateX(-30px);
-    transition: all 0.3s ease;
-    font-size: 50px;
-  }
-  
-  .projets-list-title:hover .arrow {
-    opacity: 1;
-    transform: translateX(-20px);
-    transition: all 0.3s ease;
-  }
-  
-  .projets-separate {
-    background-color: #FAF5E9;
-    width: 80%;
-    height: 2px;
-  }
-  
+	margin: 0 0 2vh;
+}
+
+.projets-list-ctn h3 {
+	margin: 0;
+	font-size: 100px;
+	display: inline-flex;
+	align-items: center;
+	transform: translateX(-25px);
+	transition: transform 0.3s ease;
+	font-weight: 400;
+}
+
+.projets-list-title:hover {
+	transform: translateX(20px);
+	font-style: italic;
+}
+
+.arrow {
+	opacity: 0;
+	transform: translateX(-30px);
+	transition: all 0.3s ease;
+	font-size: 50px;
+}
+
+.projets-list-title:hover .arrow {
+	opacity: 1;
+	transform: translateX(-20px);
+	transition: all 0.3s ease;
+}
+
+.projets-separate {
+	background-color: #faf5e9;
+	width: 80%;
+	height: 2px;
+}
+
+/* Responsive */
+@media screen and (max-width: 1700px) {
+	.projets-list-ctn h3 {
+		font-size: 80px;
+	}
+}
+@media screen and (max-width: 1500px) {
+	.projets-list-ctn h3 {
+		font-size: 70px;
+	}
+	.projets-list-ctn p {
+		width: 40vw;
+	}
+}
+@media screen and (max-width: 1250px) {
+	.projets-list-ctn h3 {
+		font-size: 60px;
+		width: 100%;
+		position: relative;
+		left: 0.2vw;
+	}
+}
+@media screen and (max-width: 1000px) {
+	.projets-list-ctn h3 {
+		font-size: 50px;
+	}
+}
+@media screen and (max-width: 850px) {
+	.projets-list-ctn h3 {
+		font-size: 55px;
+		left: 1vw;
+	}
+	.projets-list-ctn p {
+		width: 70vw;
+	}
+	.projets-separate {
+		width: 100%;
+	}
+}
+@media screen and (max-width: 700px) {
+	.projets-list-ctn h3 {
+		font-size: 40px;
+	}
+}
+@media screen and (max-width: 500px) {
+	.projets-list-ctn h3 {
+		font-size: 30px;
+		left: 2vw;
+	}
+	.projets-list-ctn p {
+		display: none;
+	}
+}
+@media screen and (max-width: 370px) {
+	.projets-list-ctn h3 {
+		font-size: 25px;
+		left: 2vw;
+	}
+}

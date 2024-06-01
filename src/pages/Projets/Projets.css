@@ -1,49 +1,91 @@
 .projets-container {
-    position: absolute;
-    top: -100vh;
-    left: 0;
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+	position: absolute;
+	top: -100vh;
+	left: 7.5vw;
+	gap: 5vw;
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
 }
 .projets-title {
-    color: #FAF5E9;
-    font-weight: 400;
-    font-size: 50px;
-    margin: 0 0 2vh;
-}
-.projets-top {
-    width: 30vw;
-    position: absolute;
-    top: 5vh;
-    left: 7.5vw;
-    color: #FAF5E9;
-}
-.projets-bottom {
-    width: 100vw;
-    height: 50vh;
-    position: relative;
-    bottom: 0;
+	color: #faf5e9;
+	font-weight: 400;
+	font-size: 50px;
+	margin: 0 0 2vh;
 }
 .projets-left {
-    position: relative;
-    bottom: -25vh;
-    left: 12vw;
-    width: 40vw;
-    height: 50vh;
+	color: #faf5e9;
+	width: 40vw;
+	position: relative;
+	bottom: -60vh;
+	padding-bottom: 20vh;
 }
 .projets-right {
-    width: 40vw;
-    height: 70vh;
-    display: flex;
-    flex-direction: column;
-    color: #FAF5E9;
-    position: absolute;
-    bottom: -25vh;
-    right: -2vw;
-    overflow-x: hidden;
-    overflow-y: auto;
+	width: 60vw;
+	overflow-y: auto;
+	position: relative;
+	bottom: -20vh;
+	padding-bottom: 20vh;
+}
+
+/* Responsive */
+@media screen and (max-width: 1700px) {
+}
+@media screen and (max-width: 1500px) {
+}
+@media screen and (max-width: 1250px) {
+}
+@media screen and (max-width: 1000px) {
+	.projets-container {
+		gap: 10vw;
+	}
+	.projets-title {
+		font-size: 40px;
+	}
+	.projets-left {
+		bottom: -55vh;
+		left: 5vw;
+	}
+}
+@media screen and (max-width: 850px) {
+	.projets-left {
+		bottom: 0;
+		left: 0;
+		top: 5vh;
+		padding: 0;
+		gap: 0;
+		width: 100vw;
+		text-align: center;
+		justify-content: center;
+		align-items: center;
+	}
+	.projets-left p {
+		width: 50vw;
+		margin: auto;
+	}
+	.projets-right {
+		bottom: 0;
+		width: 70%;
+		padding: 0;
+		margin: auto;
+	}
+	.projets-container {
+		flex-direction: column;
+		left: 0;
+	}
+}
+@media screen and (max-width: 700px) {
+	.projets-left {
+		top: 10vh;
+	}
+	.projets-right {
+		top: 10vh;
+		padding-bottom: 10vh;
+	}
+	.projets-left p {
+		width: 75vw;
+	}
+}
+@media screen and (max-width: 500px) {
 }
