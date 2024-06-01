@@ -67,6 +67,7 @@
 	padding: 10px 20px;
 	text-decoration: none;
 	color: black;
+	z-index: 20;
 }
 
 .menu-item:hover {
