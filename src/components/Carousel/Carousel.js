@@ -9,9 +9,9 @@ function Carousel({ data }) {
 	const nextSlide = () => {
 		setSlide(slide === data.length - 1 ? 0 : slide + 1);
 	};
-	const prevSlide = () => {
-		setSlide(slide === 0 ? data.length - 1 : slide - 1);
-	};
+	// const prevSlide = () => {
+	// 	setSlide(slide === 0 ? data.length - 1 : slide - 1);
+	// };
 	const showNavigate = data.length > 1;
 
 	const togglePause = () => {

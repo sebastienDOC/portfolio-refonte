@@ -1,6 +1,6 @@
 .contact-ctn {
 	position: absolute;
-	top: -110vh;
+	top: -100vh;
 	left: 0;
 	height: 100vh;
 	width: 100vw;
@@ -74,7 +74,7 @@ i {
 }
 @media screen and (max-width: 700px) {
 	.contact-ctn {
-		top: -110vh;
+		top: -100vh;
 		left: 0;
 	}
 	.contact-title {
@@ -87,7 +87,7 @@ i {
 }
 @media screen and (max-width: 500px) {
 	.contact-ctn {
-		top: -115vh;
+		top: -100vh;
 	}
 	.contact-title {
 		font-size: 75px;

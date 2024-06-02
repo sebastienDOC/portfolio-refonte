@@ -1,7 +1,5 @@
 import React from "react";
 import "./Accueil.css";
-import linkedin from "../../assets/contact/linkedin.webp";
-import github from "../../assets/contact/github.webp";
 import logo2 from "../../assets/logo/logo2.png";
 import Navbar from "../../components/Navbar/Navbar";
 import { Link } from "react-router-dom";

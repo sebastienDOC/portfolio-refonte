@@ -1,65 +1,66 @@
 .navbar-ctn {
-    position: fixed;
-    bottom: 0;
-    left: 50px;
-    color: #FAF5E9;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100vh;
-    transform-origin: left;
-    transform: rotate(270deg);
+	position: fixed;
+	bottom: 0;
+	left: 50px;
+	color: #faf5e9;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100vh;
+	transform-origin: left;
+	transform: rotate(270deg);
 }
 .navbar-separate {
-    height: 20px;
-    width: 20vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+	height: 20px;
+	width: 20vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
-.navbar-separate span{
-    background-color: #FAF5E9;
-    height: 2px;
-    width: 100%;
+.navbar-separate span {
+	background-color: #faf5e9;
+	height: 2px;
+	width: 100%;
 }
 .navbar-left {
-    padding-left: 50px;
+	padding-left: 50px;
 }
 .navbar-right {
-    display: flex;
-    padding-right: 50px;
-    gap: 10px;
+	display: flex;
+	padding-right: 50px;
+	gap: 10px;
 }
-.navbar-right a{
-    color: #FAF5E9;    
-    text-decoration: none;
+.navbar-right a {
+	color: #faf5e9;
+	text-decoration: none;
 }
-.navbar-right a:hover{
-    text-decoration: line-through;
+.navbar-right a:hover {
+	text-decoration: line-through;
 }
 
 /* Responsive */
 @media screen and (max-width: 700px) {
-    .navbar-ctn {
-        transform: rotate(0deg);
-        top: -97vh;
-        left: 0;
-        width: 100vw;
-        height: 100%;
-        flex-direction: row-reverse;
-    }
-    .navbar-right {
-        padding: 0 0 0 2vw;
-    }
-    .navbar-left {
-        padding: 0 2vw 0 0 ;
-    }
-    .navbar-separate {
-        width: 15vh;
-    }
+	.navbar-ctn {
+		position: absolute;
+		transform: rotate(0deg);
+		top: 1vh;
+		left: 0;
+		width: 100vw;
+		height: 30px;
+		flex-direction: row-reverse;
+	}
+	.navbar-right {
+		padding: 0 0 0 2vw;
+	}
+	.navbar-left {
+		padding: 0 2vw 0 0;
+	}
+	.navbar-separate {
+		width: 15vh;
+	}
 }
 @media screen and (max-width: 500px) {
-    .navbar-separate {
-        width: 5vh;
-    }
+	.navbar-separate {
+		width: 5vh;
+	}
 }
