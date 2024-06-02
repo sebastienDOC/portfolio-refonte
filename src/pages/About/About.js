@@ -4,7 +4,7 @@ import "./About.css";
 import Navbar from "../../components/Navbar/Navbar";
 import skillsData from "../../data/skills.json";
 import { motion } from "framer-motion";
-import Seb from "../../assets/photo/Seb.jpg";
+import Seb from "../../assets/photo/Seb2.jpg";
 import diplome from "../../assets/photo/Diplome.pdf";
 import cv from "../../assets/photo/CV.pdf";
 import BurgerMenu from "../../components/BurgerMenu/BurgerMenu";
