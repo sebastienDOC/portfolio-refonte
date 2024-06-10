@@ -84,14 +84,14 @@ export default function Router() {
 						</AnimationWrapper>
 					}
 				/>
-				<Route
+				{/* <Route
 					path="*"
 					element={
 						<AnimationWrapper>
 							<Error />
 						</AnimationWrapper>
 					}
-				/>
+				/> */}
 			</Routes>
 		</AnimatePresence>
 	);

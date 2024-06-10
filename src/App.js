@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from "react";
 import "./App.css";
-import { BrowserRouter } from "react-router-dom";
+
 import fond from "./assets/photo/fond2.mov";
 import Rooter from "./components/Router";
 import { ElfsightWidget } from "react-elfsight-widget";
@@ -15,27 +15,25 @@ export default function App() {
 	}, []);
 
 	return (
-		<BrowserRouter>
-			<div id="main">
-				<ElfsightWidget
-					widgetId="a5142191-17bd-4a6e-a41f-e3e7bdb0f3a0"
-					lazy
-					modern
-					className="rating"
+		<div id="main">
+			<ElfsightWidget
+				widgetId="a5142191-17bd-4a6e-a41f-e3e7bdb0f3a0"
+				lazy
+				modern
+				className="rating"
+			/>
+			<div className="bg">
+				<video
+					ref={videoRef}
+					src={fond}
+					autoPlay
+					loop
+					muted
+					alt="Des plantes bougent avec le vent"
+					type="video/mov"
 				/>
-				<div className="bg">
-					<video
-						ref={videoRef}
-						src={fond}
-						autoPlay
-						loop
-						muted
-						alt="Des vagues dans l'océan"
-						type="video/mov"
-					/>
-					<Rooter />
-				</div>
+				<Rooter />
 			</div>
-		</BrowserRouter>
+		</div>
 	);
 }

@@ -1,5 +1,5 @@
 {
-	"name": "portfolio-refonte",
+	"name": "portfolio",
 	"homepage": "http://sebastiendechand.com",
 	"version": "0.1.0",
 	"private": true,
@@ -10,7 +10,9 @@
 		"@testing-library/user-event": "^13.5.0",
 		"@vercel/analytics": "^1.1.1",
 		"@vercel/speed-insights": "^1.0.2",
+		"express": "^4.19.2",
 		"framer-motion": "^10.16.4",
+		"prerender-node": "^3.8.0",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
 		"react-elfsight-widget": "^1.1.1",
