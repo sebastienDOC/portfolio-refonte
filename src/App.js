@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from "react";
 import "./App.css";
 
-import fond from "./assets/photo/fond2.mov";
+import fond from "./assets/photo/fond2.mp4";
 import Rooter from "./components/Router";
 import { ElfsightWidget } from "react-elfsight-widget";
 
@@ -30,7 +30,7 @@ export default function App() {
 					loop
 					muted
 					alt="Des plantes bougent avec le vent"
-					type="video/mov"
+					type="video/mp4"
 				/>
 				<Rooter />
 			</div>
