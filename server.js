@@ -1,12 +1,15 @@
 const express = require("express");
 const path = require("path");
+const prerender = require("prerender-node");
 
 const app = express();
 
-// Middleware Prerender placé en premier
-app.use(
-	require("prerender-node").set("prerenderToken", "dJikYHFpALHboFOuRcep")
-);
+// Configurer Prerender avec votre token
+prerender.set("prerenderToken", "dJikYHFpALHboFOuRcep");
+prerender.set("protocol", "https"); // Assurez-vous d'utiliser le bon protocole
+
+// Utiliser le middleware Prerender
+app.use(prerender);
 
 // Définir le répertoire racine pour les fichiers statiques de l'application React
 app.use(express.static(path.join(__dirname, "build")));
